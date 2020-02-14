@@ -1,0 +1,124 @@
+---
+title: "BA888 Progress Report"
+author: 'Cohort B Team 3: Yue Gong, Jingcheng Huang, Youming Qiu, Yishuang Song, Minna
+  Tang'
+output: pdf_document
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r message=FALSE, warning=FALSE}
+# load libraries
+library(tidyverse)
+library(readr)
+library(ggplot2)
+library(dplyr)
+library(wordcloud)
+library(RColorBrewer)
+
+options(scipen=200)
+```
+
+```{r message=FALSE, warning=FALSE}
+# load datasets
+alldata <- read.csv("alldata.csv")
+
+all <- alldata %>% 
+  select(position, company, location)
+
+wage = read_csv("City_of_Seattle_Wages___Comparison_by_Gender__Wage_Progression_Job_Titles.csv")
+```
+
+```{r}
+# inspect datasets
+glimpse(alldata)
+glimpse(all)
+glimpse(wage)
+```
+
+## Project Goals
+We suppose all students in MSBA program want to get a job after the graduation in order to apply what we learned at school to the real business environment. Since Seattle is the top data scientist job market in the United States, we would love to explore possibilities of working in this city. Here are some business problems we want to solve:  
+1. What type of talents do employers want concerning tools, skills, degrees and majors?  
+2. What is the difference between different job roles(e.g. Engineer vs. Data Scientist vs. Analyst) in the data science job market?  
+3. How much would you make as a data scientist in Seattle on average?  
+
+## Data Sources
+**1. Data Scientist Job Market in the U.S. (Updated in 2019)**  
+https://www.kaggle.com/sl6149/data-scientist-job-market-in-the-us#alldata.csv  
+
+**2. City of Seattle Wage Data: Comparison by Gender (Updated in January 2020)**  
+https://catalog.data.gov/dataset/city-of-seattle-wages-comparison-by-gender-wage-progression-job-titles-417b2  
+
+## Data Summary
+"Data Scientist Job Market in the U.S." dataset is from the *Kaggle.com* website. In this dataset, we have in total of 6964 rows and 5 columns. Columns include information such as position, company, description, reviews, and location.  
+  
+"City of Seattle Wage Data: Comparison by Gender" dataset is from the *Data.gov* website. We have in total of 759 rows and 10 columns. Columns include information such as job classification, female and male average hourly rate, number of female and male employed, total average hourly rate and total number of people employed.   
+
+## Data Cleaning Process
+Firstly, we decided to conduct some pre-processing steps to clean our datasets.  
+
+### Re-format the column names for wage data
+```{r}
+colnames(wage)[colnames(wage)=="Job Classification"] <- "Job_Classification"
+colnames(wage)[colnames(wage)=="Total Avg Hrly Rate"] <- "Total_Avg_Hrly_Rate"
+wage2 = wage[grep("Anlyst",wage$Job_Classification),]
+```
+
+### Re-format the location column and add a new column called 'state' in all data.
+```{r}
+city_trim <- function(s) gsub('([A-z]+, [A-Z]{2})(\ [0-9]{5})', '\\1', s)
+all$location <- sapply(all$location, city_trim)
+state_extract <- function(s) gsub('^([A-z| ]+, )([A-Z]{2}).*', '\\2', s)
+all$state <- sapply(all$location, state_extract)
+dim(all)
+```
+Since the location column in the original dataset include both the city and state in one column. We decided to split the strings and save 'states' to a new column. Now, we have 6964 rows and 4 columns.  
+
+## Exploratory Data Analysis (EDA)   
+### 1. Top 5 Cities with the Largest Number of Data Scientist Jobs
+```{r}
+city_counts <- all %>%
+  group_by(location) %>%
+  summarize(counts = n()) %>%
+  arrange(-counts) %>% 
+  top_n(5)
+
+ggplot(city_counts, aes(x=reorder(location, -counts), y = counts, fill = location)) +           
+    geom_bar(stat="identity") +
+    geom_text(aes(label = paste0(counts))) +
+    labs(x = "City", y = "Number of Data Scientist Jobs")+
+    theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),  panel.background = element_blank(), axis.line = element_line(colour = "black"))
+```
+### 2. Companies with Most Data Science Job Openings
+```{r}
+com <- all %>%
+  group_by(company)%>%
+  count()%>%
+  arrange(desc(n))
+
+com %>%
+  head(10)%>%
+  ggplot(aes(x=reorder(company,n),y=n)) +
+  geom_col(fill="#6391e0") + 
+  coord_flip() +
+  labs(x="", y="Number of Job Openings")+
+  geom_text(aes(label=n), y=80, size=4, color="black")+
+      theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),  panel.background = element_blank(), axis.line = element_line(colour = "black"))
+```
+
+### 3. Top 10 analyst hourly wages
+```{r}
+wage2 %>% 
+  select(Job_Classification,Total_Avg_Hrly_Rate) %>% 
+  arrange(desc(Total_Avg_Hrly_Rate)) %>% 
+  top_n(10)->top10_hourly_rate
+
+ggplot(top10_hourly_rate,aes(x=reorder(Job_Classification,-Total_Avg_Hrly_Rate), y=Total_Avg_Hrly_Rate))+
+  geom_col(aes(fill=Job_Classification))+
+  labs(y="Avg Hourly Rate", x="Job Classification")+
+  geom_text(aes(label=Total_Avg_Hrly_Rate))+
+  theme(axis.text = element_text(size=10,face="italic",angle = 25))+
+      theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),  panel.background = element_blank(), axis.line = element_line(colour = "black"))
+```
+
