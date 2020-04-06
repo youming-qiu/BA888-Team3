@@ -1,16 +1,65 @@
----
-title: "ML Model"
-author: "Cohort B Team 3"
-date: "3/21/2020"
-output: pdf_document
----
+# =======================================================================================================================
+#   =======================================================================================================================
+#     
+#     Job_Title:		Title of Role
+#   Link:			Weblink of Job Posting
+#   Queried_Salary:		Salary Range of the Job Posting (Estimated/Actual if available)
+#   Job_Type:		3 Categories of Job Types - data_scientist, data_analyst, data_engineer
+#   Skill:			List of desired skills on indeed site
+#   No of Skill:		Count of the number of desired skills
+#   Company:		Company that posted the job posting
+#   No of Reviews:		Number of Reviews for the Company
+#   No of Stars:		Ratings for the Company
+#   Date Since Posted:	Number of days since the job was posted - if less than a day, will be rounded up to a full day
+#   Description:		Web scrape of part of the job description
+#   Location:		State the job opening is located in
+#   Company_Revenue:	Annual revenue of hiring company
+#   Company_Employees:	Employee count of hiring company
+#   Company_Industry:	Industry of hiring company
+#   
+#   =======================================================================================================================
+#     =======================================================================================================================
+#     
+#     Expansion of Skill column (Top 10 overall skills):
+#     - python
+#   - sql
+#   - machine learning
+#   - r
+#   - hadoop
+#   - tableau
+#   - sas
+#   - spark
+#   - java
+#   - Others
+#   
+#   Expansion of Location column (Top 10 overall states):
+#     - CA
+#   - NY
+#   - VA
+#   - TX
+#   - MA
+#   - IL
+#   - WA
+#   - MD
+#   - DC
+#   - NC
+#   - Other_states
+#   
+#   Expansion of Company_Industry columns (Top 5 overall industries)
+#   - Consulting and Business Services
+#   - Internet and Software
+#   - Banks and Financial Services
+#   - Health Care
+#   - Insurance
+#   - Other_industries
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
-# Load Library 
-```{r message=FALSE, warning=FALSE}
+# Goal: Create predictive models for salary prediction 
+
+# Set working directory 
+# setwd("~/Desktop")
+
+# load libraries
 library(dplyr)
 library(ggplot2)
 library(fastDummies)
@@ -19,37 +68,31 @@ library(MASS)
 library(kernlab)
 library(randomForest)
 library(gbm)
-```
 
-# Load the dataset
-```{r}
+
+# load the dataset 
 data <- read.csv("indeed_job_dataset.csv")
 glimpse(data)
-```
 
-# Create a new working data called my data by removing some columns
-```{r}
-mydata <- data %>% dplyr::select(-X:-Link, -Skill, -Company, -Date_Since_Posted:-Location, -Company_Industry)
+########## Create a new working data called my data
+# remove some columns 
+mydata <- data %>% select(-X:-Link, -Skill, -Company, -Date_Since_Posted:-Location, -Company_Industry)
 dim(mydata)
-```
 
-# EDA
-```{r}
+########## EDA
 head(mydata)
-summary(mydata)
-```
-* 3 main job types: analyst, engineer, scientist 
-* No. of skills: Median - 7, Mean - 7.804, Range - 0 - 20
-* 962 companies don't have any reviews/ ratings on Indeed
-* Ineed does not have information on some companies revenue and number of employee information 
+summary(mydata) 
+# 3 main job types: analyst, engineer, scientist 
+# No. of skills: Median - 7, Mean - 7.804, Range - 0 - 20
+# 962 companies don't have any reviews/ ratings on Indeed
+# Ineed does not have information on some companies revenue and number of employee information 
 
-*Analysis on salary range*
-```{r}
-percentage <- prop.table(table(mydata$Queried_Salary)) * 100
-cbind(freq=table(mydata$Queried_Salary), percentage=percentage)
-```
+#
+levels(mydata$salary)
+percentage <- prop.table(table(mydata$salary)) * 100
+cbind(freq=table(mydata$salary), percentage=percentage)
 
-```{r message=FALSE, warning=FALSE}
+
 # Count of each salary range
 ggplot(mydata) + 
   geom_histogram(aes(x = as.factor(Queried_Salary)),stat="count") + 
@@ -70,10 +113,7 @@ mydata %>%
   theme_classic() +
   labs(x = "Salary Range", y="Percentage (%)",
        title = "Estimated / Actual Salary Range of the Job Postings (%)")
-```
 
-*Other variables*
-```{r message=FALSE, warning=FALSE}
 # Count of each job type 
 mydata %>% 
   group_by(Job_Type) %>% 
@@ -90,13 +130,12 @@ mydata %>%
 skills <- mydata[ ,8:17] 
 skills %>% head()
 featurePlot(x=skills, y=mydata$Queried_Salary, plot="box")
-```
 
-# Data Cleaning 
-```{r}
-summary(mydata) 
-# shows that Company_Revenue & Company_Employees have blank values 
 
+########## Data Cleaning 
+#mydata <- data %>% select(-X:-Link, -Skill, -Company, -Date_Since_Posted:-Location, -Company_Industry)
+
+summary(mydata) # shows that Company_Revenue & Company_Employees have blank values 
 # fill those blank value with NA 
 # Company_Revenue
 mydata$Company_Revenue <- as.character(mydata$Company_Revenue)
@@ -109,25 +148,21 @@ mydata$Company_Employees[mydata$Company_Employees == ""] <- "NA"
 mydata$Company_Employees <- as.factor(mydata$Company_Employees)
 summary(mydata$Company_Employees)
 
-# replace NAs with o for No_of_Reviews & No_of_Stars
-mydata[is.na(mydata)] <- 0
 
 # Check if there’s any missing value in this dataset
 sapply(mydata, function(x) sum(is.na(x)))
 
-```
+# replace NAs with o for No_of_Reviews & No_of_Stars
+mydata[is.na(mydata)] <- 0
 
-*Dummify the following columns *
-```{r}
+# Dummify the following columns 
 str(mydata) # check if the columns needed to be dumified are in factor forms 
 mydata <-dummy_cols(mydata)
 
-mydata <- mydata %>% dplyr::select(-Job_Type, -Company_Revenue, - Company_Revenue, - Company_Employees,
+mydata <- mydata %>% select(-Job_Type, -Company_Revenue, - Company_Revenue, - Company_Employees,
                             -"Queried_Salary_<80000": -"Queried_Salary_80000-99999" )
-```
 
-*Change colnames *
-```{r}
+# change colnames 
 colnames(mydata)
 mydata <- mydata %>% rename_all(tolower)
 
@@ -161,96 +196,9 @@ colnames(mydata)[colnames(mydata) == "company_employees_less than 10,000"] <- "e
 colnames(mydata)[colnames(mydata) == "company_employees_na"] <- "employees_na"
 colnames(mydata)
 
-```
 
-# Building machine learning models
-*Split into the training and testing datasets*
-```{r}
+################ Relabel the levels of salary to a value 
 levels(mydata$salary)
 
-# Determine sample size
-set.seed(123456)
 
-# create a list of 80% of the rows in the original dataset we can use for training
-validation_index <- createDataPartition(mydata$salary, p=0.80, list=FALSE)
-# select 20% of the data for validation
-mydata_test <- mydata[-validation_index, ]
-# use the remaining 80% of data to training and testing the models
-mydata_train <- mydata[validation_index, ]
-
-dim(mydata)
-dim(mydata_train)
-dim(mydata_test)
-```
-
-* Run algorithms using 10-fold cross validation
-```{r}
-control <- trainControl(method="cv", number=10)
-metric <- "Accuracy"
-```
-Using the metric of "Accuracy" to evaluate machine learning models. This is a ratio of the number of correctly predicted instances in divided by the total number of instances in the dataset multiplied by 100 to give a percentage (e.g. 95% accurate). 
-
-*Fit models*
-a) Linear Discriminant Analysis (LDA)
-```{r message=FALSE, warning=FALSE}
-fit.lda <- train(salary~., data=mydata_train, method="lda", 
-                 metric=metric, trControl=control)
-```
-b) StepwiseRegression
-```{r message=FALSE, include=FALSE}
-# library(MASS)
-fit.stepwise <- train(salary~., data=mydata_train, method="stepLDA", 
-                      metric=metric, trControl=control)
-```
-c) k-Nearest Neighbors (kNN)
-```{r message=FALSE, warning=FALSE, include=FALSE}
-fit.knn <- train(salary~., data=mydata_train, method="knn", 
-                 metric=metric, trControl=control)
-```
-d) Support Vector Machines (SVM) with a linear kernel
-```{r include=FALSE}
-# library(kernlab)
-fit.svm <- train(salary~., data=mydata_train, method="svmRadial", 
-                 metric=metric, trControl=control)
-```
-e) Random Forest (RF)
-```{r message=FALSE, warning=FALSE, include=FALSE}
-# library(randomForest)
-fit.rf <- train(salary~., data=mydata_train, method="rf",
-                metric=metric, trControl=control)
-```
-f) boosted trees 
-```{r message=FALSE, warning=FALSE, include=FALSE}
-# library(gbm)
-fit.gbm <- train(salary~., data=mydata_train, method="gbm", 
-                 metric=metric, trControl=control)
-```
-
-*Summarize accuracy of models*
-```{r}
-results <- resamples(list(lda=fit.lda, stepwise = fit.stepwise, knn=fit.knn, 
-                          svm=fit.svm, rf=fit.rf, boosting=fit.gbm))
-summary(results)
-```
-*Compare accuracy of models*
-```{r}
-dotplot(results)
-```
-As the grpah above shows, Random forest is the most arrucate. 
-
-*Summary of the best model*
-```{r}
-print(fit.rf)
-```
-
-# Estimate the best model on testing dataset 
-```{r}
-predictions <- predict(fit.rf, mydata_test)
-confusionMatrix(predictions, mydata_test$salary)
-```
-
-# Create prediction based on MSBA students 
-```{r}
-```
-
-
+################ Split into the training and testing datasets
