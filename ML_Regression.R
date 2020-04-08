@@ -64,10 +64,7 @@ library(dplyr)
 library(ggplot2)
 library(fastDummies)
 library(caret)
-library(MASS)
-library(kernlab)
 library(randomForest)
-library(gbm)
 
 
 # load the dataset 
@@ -76,7 +73,8 @@ glimpse(data)
 
 ########## Create a new working data called my data
 # remove some columns 
-mydata <- data %>% select(-X:-Link, -Skill, -Company, -Date_Since_Posted:-Location, -Company_Industry)
+mydata <- data %>% dplyr::select(-X:-Link, -Skill, -Company, 
+                                 -Date_Since_Posted:-Location, -Company_Industry)
 dim(mydata)
 
 ########## EDA
@@ -88,9 +86,9 @@ summary(mydata)
 # Ineed does not have information on some companies revenue and number of employee information 
 
 #
-levels(mydata$salary)
-percentage <- prop.table(table(mydata$salary)) * 100
-cbind(freq=table(mydata$salary), percentage=percentage)
+levels(mydata$Queried_Salary)
+percentage <- prop.table(table(mydata$Queried_Salary)) * 100
+cbind(freq=table(mydata$Queried_Salary), percentage=percentage)
 
 
 # Count of each salary range
@@ -132,8 +130,6 @@ skills %>% head()
 featurePlot(x=skills, y=mydata$Queried_Salary, plot="box")
 
 
-########## Data Cleaning 
-#mydata <- data %>% select(-X:-Link, -Skill, -Company, -Date_Since_Posted:-Location, -Company_Industry)
 
 summary(mydata) # shows that Company_Revenue & Company_Employees have blank values 
 # fill those blank value with NA 
@@ -159,7 +155,7 @@ mydata[is.na(mydata)] <- 0
 str(mydata) # check if the columns needed to be dumified are in factor forms 
 mydata <-dummy_cols(mydata)
 
-mydata <- mydata %>% select(-Job_Type, -Company_Revenue, - Company_Revenue, - Company_Employees,
+mydata <- mydata %>% dplyr::select(-Job_Type, -Company_Revenue, - Company_Revenue, - Company_Employees,
                             -"Queried_Salary_<80000": -"Queried_Salary_80000-99999" )
 
 # change colnames 
@@ -168,17 +164,6 @@ mydata <- mydata %>% rename_all(tolower)
 
 colnames(mydata)[colnames(mydata) == "queried_salary"] <- "salary"
 colnames(mydata)[colnames(mydata) == "others"] <- "other_skills"
-
-colnames(mydata)[colnames(mydata) == "ca"] <- "california"
-colnames(mydata)[colnames(mydata) == "ny"] <- "new_york"
-colnames(mydata)[colnames(mydata) == "va"] <- "virginia"
-colnames(mydata)[colnames(mydata) == "tx"] <- "texas"
-colnames(mydata)[colnames(mydata) == "ma"] <- "massachusetts"
-colnames(mydata)[colnames(mydata) == "il"] <- "illinois"
-colnames(mydata)[colnames(mydata) == "wa"] <- "washington"
-colnames(mydata)[colnames(mydata) == "md"] <- "maryland"
-colnames(mydata)[colnames(mydata) == "dc"] <- "dc"
-colnames(mydata)[colnames(mydata) == "nc"] <- "north_carolina"
 
 colnames(mydata)[colnames(mydata) == "job_type_data_analyst"] <- "data_analyst"
 colnames(mydata)[colnames(mydata) == "job_type_data_engineer"] <- "data_engineer"
@@ -197,8 +182,80 @@ colnames(mydata)[colnames(mydata) == "company_employees_na"] <- "employees_na"
 colnames(mydata)
 
 
-################ Relabel the levels of salary to a value 
+################ Relabel the levels of salary to a numeric value 
 levels(mydata$salary)
+mydata$salary <- as.character(mydata$salary)
+mydata$salary[mydata$salary == '<80000'] <- 70000
+mydata$salary[mydata$salary == "80000-99999"] <- 90000
+mydata$salary[mydata$salary == "100000-119999"] <- 110000
+mydata$salary[mydata$salary == "120000-139999"] <- 130000
+mydata$salary[mydata$salary == "140000-159999"] <- 150000
+mydata$salary[mydata$salary == ">160000"] <- 170000
 
+mydata$salary <- as.numeric(mydata$salary)
+
+# replace NA with the salary mean 
+mydata$salary %>% summary() # there are 788 NAs 
+mydata$salary[is.na(mydata$salary)] <- mean(mydata$salary, na.rm = T)
 
 ################ Split into the training and testing datasets
+# Determine sample size
+set.seed(123456)
+
+# create a list of 80% of the rows in the original dataset we can use for training
+validation_index <- createDataPartition(mydata$salary, p=0.80, list=FALSE)
+# select 20% of the data for validation
+mydata_test <- mydata[-validation_index, ]
+# use the remaining 80% of data to training and testing the models
+mydata_train <- mydata[validation_index, ]
+
+# Run algorithms using 10-fold cross validation
+control <- trainControl(method="cv", number=10)
+metric <- "RMSE"
+# using the metric of “RMSE” to evaluate models 
+# ifelse(is.factor(y_dat), "Accuracy", "RMSE")
+
+######################## Fit the models 
+# Let’s evaluate different algorithms:
+# a) Linear Regression
+fit.lm <- train(salary~., data=mydata_train, method="lm", 
+                 metric=metric, trControl=control)
+# b) Linear Regression with Backwards Selection
+fit.backward <- train(salary~., data=mydata_train, method="leapBackward", 
+                       metric=metric, trControl=control)
+# c) Linear Regression with Forward Selection
+fit.forward <- train(salary~., data=mydata_train, method="leapForward", 
+                       metric=metric, trControl=control)
+# d) StepwiseRegression
+fit.stepwise <- train(salary~., data=mydata_train, method="leapSeq", 
+                      metric=metric, trControl=control)
+# e) Ridge Regression
+fit.ridge <- train(salary~., data=mydata_train, method="ridge",
+                       metric=metric, trControl=control)
+# f) Lasso Regression 
+fit.lasso <- train(salary~., data=mydata_train, method="lasso",
+                   metric=metric, trControl=control)
+# g) Random Forest (RF)
+# library(randomForest)
+fit.rf <- train(salary~., data=mydata_train, method="rf",
+                metric=metric, trControl=control)
+
+
+# summarize RSME of models
+results <- resamples(list(lm = fit.lm, backward = fit.backward, forward = fit.forward,
+                          stepwise = fit.stepwise, ridge = fit.ridge, lasso = fit.lasso,rf=fit.rf))
+summary(results)
+
+# compare accuracy of models
+dotplot(results)
+
+# Randomforest is the most arrucate 
+
+# summarize Best Model
+print(fit.rf)
+
+# estimate skill of rf on the testing dataset
+predictions <- predict(fit.rf, mydata_test)
+RMSE(predictions, mydata_test$salary)
+
+# 18142.52
