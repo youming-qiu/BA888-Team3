@@ -76,7 +76,7 @@ glimpse(data)
 
 ########## Create a new working data called my data
 # remove some columns 
-mydata <- data %>% select(-X:-Link, -Skill, -Company, -Date_Since_Posted:-Location, -Company_Industry)
+mydata <- data %>% dplyr::select(-X:-Link, -Skill, -Company, -Date_Since_Posted:-Location, -Company_Industry)
 dim(mydata)
 
 ########## EDA
@@ -88,9 +88,9 @@ summary(mydata)
 # Ineed does not have information on some companies revenue and number of employee information 
 
 #
-levels(mydata$salary)
-percentage <- prop.table(table(mydata$salary)) * 100
-cbind(freq=table(mydata$salary), percentage=percentage)
+levels(mydata$Queried_Salary)
+percentage <- prop.table(table(mydata$Queried_Salary)) * 100
+cbind(freq=table(mydata$Queried_Salary), percentage=percentage)
 
 
 # Count of each salary range
@@ -159,7 +159,7 @@ mydata[is.na(mydata)] <- 0
 str(mydata) # check if the columns needed to be dumified are in factor forms 
 mydata <-dummy_cols(mydata)
 
-mydata <- mydata %>% select(-Job_Type, -Company_Revenue, - Company_Revenue, - Company_Employees,
+mydata <- mydata %>% dplyr::select(-Job_Type, -Company_Revenue, - Company_Revenue, - Company_Employees,
                             -"Queried_Salary_<80000": -"Queried_Salary_80000-99999" )
 
 # change colnames 
@@ -214,11 +214,8 @@ mydata_train <- mydata[validation_index, ]
 # Run algorithms using 10-fold cross validation
 control <- trainControl(method="cv", number=10)
 metric <- "Accuracy"
-# using the metric of “Accuracy” to evaluate models.
-# This is a ratio of the number of correctly predicted instances in 
-# divided by the total number of instances in the dataset multiplied by 
-# 100 to give a percentage (e.g. 95% accurate)
-
+# using the metric of “Accuracy” to evaluate models 
+# ifelse(is.factor(y_dat), "Accuracy", "RMSE")
 
 ######################## Fit the models 
 # Let’s evaluate different algorithms:
@@ -244,17 +241,6 @@ fit.rf <- train(salary~., data=mydata_train, method="rf",
 # library(gbm)
 fit.gbm <- train(salary~., data=mydata_train, method="gbm", 
                  metric=metric, trControl=control)
-
-
-############### Didn't work
-# # g) Regularization 
-# library(monomvn)
-# fit.ridge <- train(salary~., data=mydata_train, method="bridge",
-#                        metric=metric, trControl=control)
-#  
-# fit.lasso <- train(salary~., data=mydata_train, method="blasso",
-#                    metric=metric, trControl=control)
-
 
 
 # summarize accuracy of models
