@@ -254,11 +254,42 @@ dotplot(results)
 # Randomforest is the most arrucate 
 
 # summarize Best Model
-print(fit.rf)
+print(fit.rf) 
 
 # estimate skill of rf on the testing dataset
 predictions <- predict(fit.rf, mydata_test)
 confusionMatrix(predictions, mydata_test$salary)
+
+#  Accuracy : 0.4886
+
+# Since the neighboring categories are similar to an extent
+# We would like to change the measure of accuracy
+# If the predicted category is correct or one of the neirghboring 
+# categories, then we consider it as correct 
+
+# For <80000, correct ratio 
+v1 <- 105 + 36 
+
+# For >160000
+v2 <- 25 + 30 
+
+# For 100000-119999
+v3 <- 143 + 36 + 50 
+
+# For 120000-139999
+v4 <- 121 + 78 + 45
+
+# For 140000-159999
+v5 <- 78 + 54 + 15 
+
+# For 80000-99999
+v6 <- 85 + 44 + 36 
+
+# accurate % - 0.8605263
+(v1+v2+v3+v4+v5+v6)/nrow(mydata_test)
+
+
+
 
 
 
