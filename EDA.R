@@ -5,8 +5,8 @@ library(dplyr)
 library(wordcloud)
 library(RColorBrewer)
 
-##hello 
-###############Sarah################3
+##Welcome to Team3 
+###############Sarah################
 
 options(scipen=200)
 
@@ -50,6 +50,7 @@ com %>%
   labs(x="", y="Number of Job Openings")+
   geom_text(aes(label=n), y=80, size=4, color="black")
 
+#####################Plot#####################
 ## Top 5 City with the Largest Number of Data Scientist Jobs
 city_counts <- all %>%
   group_by(location) %>%
