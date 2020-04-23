@@ -307,7 +307,7 @@ ggplot(survey) +
   geom_histogram(aes(x = predicted_salary)) + 
   theme_classic() + 
   labs(title = "Distribution of Estimated Salary",
-       x = "Salary", y = "Frequency")
+       x = "Salary", y = "Frequency") 
 
 
 summary(survey$predicted_salary)
