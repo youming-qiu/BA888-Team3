@@ -5,7 +5,7 @@ library(dplyr)
 library(wordcloud)
 library(RColorBrewer)
 
-##Welcome to Team3 Project
+##Welcome to Team3 
 ###############Sarah################
 
 options(scipen=200)
