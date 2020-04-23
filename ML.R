@@ -289,6 +289,70 @@ v6 <- 85 + 44 + 36
 (v1+v2+v3+v4+v5+v6)/nrow(mydata_test)
 
 
+## Application on survey results 
+
+# load survey dataset 
+survey <- read.csv("Survey.csv")
+glimpse(survey)
+
+########## Create a new working data called my data
+# remove some columns 
+survey <- survey %>% dplyr::select(-X, -skills, -state, 
+                                   -industry, -job.title, -company)
+dim(survey)
+
+########## EDA
+summary(survey) 
+
+# no_of_skills: mean 4.56 median 5 range 1 - 7
+# popular skills: python, sql, machine learning, r, tableau - more than 70%
+# popular states: MA 28.3%, NY: 30%, CA 18.33%
+# popular industries: 
+# consulting.and.business.services 46.67%
+# internet.and.software            30% 
+# banks.and.financial.services     1.67%
+
+# Job direction: analyst 73.33%, engineer 10%, scientist 16.67%
+# big companies revenue > 10 billion 
+# employee > 10K
+
+# chaneg the survey data colnames to match dataset above 
+colnames(mydata)
+colnames(survey)
+
+colnames(survey)[colnames(survey) == "revenue_.5bto.10b"] <- "revenue_$5bto$10b"
+colnames(survey)[colnames(survey) == "revenue..1b"] <- "revenue<$1b"
+colnames(survey)[colnames(survey) == "revenue_.1bto.5b"] <- "revenue_$1bto$5b"
+colnames(survey)[colnames(survey) == "X.revenue..10b"] <- "revenue>$10b"
+colnames(survey)[colnames(survey) == "employees.10k"] <- "employees>10k"
+colnames(survey)[colnames(survey) == "employees.10k.1"] <- "employees<10k"
+colnames(survey)[colnames(survey) == "ca"] <- "california"
+colnames(survey)[colnames(survey) == "va"] <- "virginia"
+colnames(survey)[colnames(survey) == "ma"] <- "massachusetts"
+colnames(survey)[colnames(survey) == "wa"] <- "washington"
+colnames(survey)[colnames(survey) == "ny"] <- "new_york"
+colnames(survey)[colnames(survey) == "tx"] <- "texas"
+colnames(survey)[colnames(survey) == "il"] <- "illinois"
+colnames(survey)[colnames(survey) == "md"] <- "maryland"
+colnames(survey)[colnames(survey) == "nc"] <- "north_carolina"
+
+# fit the model 
+survey_pred<- predict(fit.rf, survey)
+survey$predicted_salary <- survey_pred
+
+ggplot(survey) + 
+  geom_histogram(aes(x = as.factor(predicted_salary)), stat = "count") + 
+  theme_classic() + 
+  labs(title = "Distribution of Estimated Salary Range",
+       x = "Salary", y = "Frequency")
+
+summary(survey$predicted_salary)
+# <80000       >160000 100000-119999 120000-139999 140000-159999   80000-99999 
+# 2             2            25            14             1            17 
+
+# MSBA student - last row 
+# 100000-119999
+
 
 
 

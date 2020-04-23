@@ -314,4 +314,5 @@ summary(survey$predicted_salary)
 # Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
 # 94424  106839  114134  116252  123676  142819 
 
-
+# MSBA student - last row 
+# 114208.33
