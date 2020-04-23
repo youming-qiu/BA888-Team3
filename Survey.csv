@@ -2,31 +2,31 @@
 "[1] ""salary""",3,0,1,1,1,0,0,0,0,0,0,"SQL, Machine Learning, R",0,0,0,0,1,0,0,0,0,0,0,Massachusetts,Internet & Software,0,1,0,0,0,0,Data analyst,1,0,0,Hubspot ,45,4.4,0,0,1,0,0,0,1,0
 "[2] ""no_of_skills""",5,1,1,1,1,0,1,0,0,0,0,"Python, SQL, Machine Learning, R, Tableau",0,1,0,0,0,0,0,0,0,0,0,New York,Consulting & business services,1,0,0,0,0,0,Data analyst,1,0,0,Bain,136,4.3,1,0,0,0,0,1,0,0
 "[3] ""no_of_reviews""",6,1,1,1,1,0,1,0,0,0,1,"Python, SQL, Machine Learning, R, Tableau, Salesforce",0,0,0,0,0,0,1,0,0,0,0,Washington,Internet & Software,0,1,0,0,0,0,Data scientist,0,0,1,Microsoft,6800,4.2,0,0,0,1,0,1,0,0
-"[4] ""no_of_stars""",5,1,1,1,1,0,1,0,0,0,0,"Python, SQL, Machine Learning, R, Tableau",0,1,0,0,0,0,0,0,0,0,0,New York,Consulting & business services,1,0,0,0,0,0,Data analyst,1,0,0,Deloitte,9400,4.0,0,0,0,1,0,1,0,0
+"[4] ""no_of_stars""",5,1,1,1,1,0,1,0,0,0,0,"Python, SQL, Machine Learning, R, Tableau",0,1,0,0,0,0,0,0,0,0,0,New York,Consulting & business services,1,0,0,0,0,0,Data analyst,1,0,0,Deloitte,9400,4,0,0,0,1,0,1,0,0
 "[5] ""python""",5,1,1,1,1,0,1,0,0,0,0,"Python, SQL, Machine Learning, R, Tableau",0,0,0,0,0,0,1,0,0,0,0,Washington,Consulting & business services,1,0,0,0,0,0,Data analyst,1,0,0,Amazon,60800,3.6,0,0,0,1,0,1,0,0
 "[6] ""sql""",4,1,0,1,1,0,0,0,0,0,1,"Python, R, Machine Learning, Java",1,0,0,0,0,0,0,0,0,0,0,California,Internet & Software,0,1,0,0,0,0,Data scientist,0,0,1,Microsoft,6800,4.2,0,0,0,1,0,1,0,0
 "[7] ""machine.learning""",1,1,0,0,0,0,0,0,0,0,0,Python,0,1,0,0,0,0,0,0,0,0,0,New York,Consulting & business services,1,0,0,0,0,0,Data engineer,0,1,0,Bloomberg,797,3.9,0,1,0,0,0,1,0,0
-"[8] ""r""",4,1,1,0,1,0,1,0,0,0,0,"Python, SQL, R, Tableau",0,0,0,0,0,0,0,0,0,0,1,Pennsylvania,Marketing,0,0,0,0,0,1,Data analyst,1,0,0,PwC,7600,4.0,0,0,0,1,0,1,0,0
-"[9] ""hadoop""",5,1,1,1,1,0,1,0,0,0,0,"Python, SQL, R, Machine Learning, Tableau",0,1,0,0,0,0,0,0,0,0,0,New York,Consulting & business services,1,0,0,0,0,0,Data analyst,1,0,0,NA,0,0.0,0,0,0,0,1,0,0,1
+"[8] ""r""",4,1,1,0,1,0,1,0,0,0,0,"Python, SQL, R, Tableau",0,0,0,0,0,0,0,0,0,0,1,Pennsylvania,Marketing,0,0,0,0,0,1,Data analyst,1,0,0,PwC,7600,4,0,0,0,1,0,1,0,0
+"[9] ""hadoop""",5,1,1,1,1,0,1,0,0,0,0,"Python, SQL, R, Machine Learning, Tableau",0,1,0,0,0,0,0,0,0,0,0,New York,Consulting & business services,1,0,0,0,0,0,Data analyst,1,0,0,NA,0,0,0,0,0,0,1,0,0,1
 "[10] ""tableau""",6,1,1,1,1,0,0,0,0,1,1,"Python, SQL, R, Machine Learning, Java",0,0,0,0,0,0,0,0,1,0,0,"Washington, DC",Internet & Software,0,1,0,0,0,0,Data scientist,0,0,1,Honeywell,8600,3.8,0,0,1,0,0,1,0,0
 "[11] ""sas""",5,1,1,1,1,0,1,0,0,0,0,"Python, SQL, R, Machine Learning, Tableau",0,1,0,0,0,0,0,0,0,0,0,New York,Consulting & business services,1,0,0,0,0,0,Data analyst,1,0,0,Amazon,60800,3.6,0,0,0,1,0,1,0,0
 "[12] ""spark""",7,1,1,1,1,1,1,1,0,0,0,"Python, SQL, R, Machine Learning, Hadoop, Tableau, SAS",1,0,0,0,0,0,0,0,0,0,0,California,Insurance,0,0,0,0,1,0,Data scientist,0,0,1,Amazon,60800,3.6,0,0,0,1,0,1,0,0
-"[13] ""java""",4,1,1,1,1,0,0,0,0,0,0,"Python, SQL, R, Machine Learning",0,0,0,0,1,0,0,0,0,0,0,Massachusetts,Consulting & business services,1,0,0,0,0,0,Data analyst,1,0,0,NA,0,0.0,0,0,0,0,1,0,0,1
-"[14] ""other_skills""",6,1,1,1,1,0,1,0,0,1,0,"Python, SQL, R, Machine Learning, Tableau, Java",0,0,0,0,1,0,0,0,0,0,0,Massachusetts,Healthcare,0,0,0,1,0,0,Data analyst,1,0,0,Accenture,19500,4.0,0,0,0,1,0,0,0,0
+"[13] ""java""",4,1,1,1,1,0,0,0,0,0,0,"Python, SQL, R, Machine Learning",0,0,0,0,1,0,0,0,0,0,0,Massachusetts,Consulting & business services,1,0,0,0,0,0,Data analyst,1,0,0,NA,0,0,0,0,0,0,1,0,0,1
+"[14] ""other_skills""",6,1,1,1,1,0,1,0,0,1,0,"Python, SQL, R, Machine Learning, Tableau, Java",0,0,0,0,1,0,0,0,0,0,0,Massachusetts,Healthcare,0,0,0,1,0,0,Data analyst,1,0,0,Accenture,19500,4,0,0,0,1,0,0,0,0
 "[15] ""ca""",2,1,0,0,1,0,0,0,0,0,0,"Python, R",0,0,0,0,0,1,0,0,0,0,0,Illinois,Banks & financial services,0,0,1,0,0,0,Data analyst,1,0,0,Riken Research Institute,4,4.3,0,0,1,0,0,0,1,0
 "[16] ""ny""",5,1,1,1,1,0,1,0,0,0,0,"Python, SQL, R, Machine Learning, Tableau",0,0,0,0,0,0,1,0,0,0,0,Washington,Banks & financial services,0,0,1,0,0,0,Data analyst,1,0,0,Chase,8500,3.9,0,0,0,1,0,1,0,0
 "[17] ""va""",6,1,1,1,1,1,0,0,1,0,0,"Python, SQL, R, Machine Learning, Tableau",0,1,0,0,0,0,0,0,0,0,0,New York,Internet & Software,0,1,0,0,0,0,Data analyst,1,0,0,Google,3700,4.3,0,0,0,1,0,1,0,0
-"[18] ""tx""",6,1,1,1,1,0,1,0,0,1,0,"Python, SQL, R, Machine Learning, Tableau, Java",0,1,0,0,0,0,0,0,0,0,0,New York,Banks & financial services,0,0,1,0,0,0,Data analyst,1,0,0,IFC,3,4.0,0,0,1,0,0,0,1,0
+"[18] ""tx""",6,1,1,1,1,0,1,0,0,1,0,"Python, SQL, R, Machine Learning, Tableau, Java",0,1,0,0,0,0,0,0,0,0,0,New York,Banks & financial services,0,0,1,0,0,0,Data analyst,1,0,0,IFC,3,4,0,0,1,0,0,0,1,0
 "[19] ""ma""",6,1,1,1,1,1,0,0,1,0,0,"Python, SQL, R, Machine Learning, Hadoop, Spark",1,0,0,0,0,0,0,0,0,0,0,California,Internet & Software,0,1,0,0,0,0,Data scientist,0,0,1,Coinbase,6,4.3,1,0,0,0,0,0,1,0
 "[20] ""il""",3,1,0,1,1,0,0,0,0,0,0,"Python, R, Machine Learning",1,0,0,0,0,0,0,0,0,0,0,California,Consulting & business services,1,0,0,0,0,0,Data analyst,1,0,0,Google,3700,4.3,0,0,0,1,0,1,0,0
 "[21] ""wa""",5,1,1,1,1,0,1,0,0,0,0,"Python, SQL, R, Machine Learning, Tableau",0,1,0,0,0,0,0,0,0,0,0,New York,Consulting & business services,1,0,0,0,0,0,Data analyst,1,0,0,McKinsey & Co,540,4.3,0,0,0,1,0,1,0,0
 "[22] ""md""",6,1,1,1,1,0,1,0,0,0,1,"Python, SQL, R, Machine Learning, Tableau, ERP",0,0,0,1,0,0,0,0,0,0,0,Texas,Consulting & business services,1,0,0,0,0,0,Data analyst,1,0,0,Wayfair,962,3.2,0,1,0,0,0,1,0,0
-"[23] ""dc""",5,1,1,1,1,0,1,0,0,0,0,"Python, SQL, R, Machine Learning, Tableau",0,1,0,0,0,0,0,0,0,0,0,New York,Consulting & business services,1,0,0,0,0,0,Data analyst,1,0,0,Goldman Sachs,1700,4.0,0,0,0,1,0,1,0,0
+"[23] ""dc""",5,1,1,1,1,0,1,0,0,0,0,"Python, SQL, R, Machine Learning, Tableau",0,1,0,0,0,0,0,0,0,0,0,New York,Consulting & business services,1,0,0,0,0,0,Data analyst,1,0,0,Goldman Sachs,1700,4,0,0,0,1,0,1,0,0
 "[24] ""nc""",5,1,1,1,1,0,1,0,0,0,0,"Python, SQL, R, Machine Learning, Tableau",0,1,0,0,0,0,0,0,0,0,0,New York,Consulting & business services,1,0,0,0,0,0,Data analyst,1,0,0,JPMorgan,18100,3.9,0,0,0,1,0,1,0,0
 "[25] ""other_states""",5,1,1,1,1,0,1,0,0,0,0,"Python, SQL, R, Machine Learning, Tableau",1,0,0,0,0,0,0,0,0,0,0,California,Consulting & business services,1,0,0,0,0,0,Data scientist,0,0,1,Facebook,566,4.2,0,0,0,1,0,1,0,0
 "[26] ""consulting.and.business.services""",5,1,1,1,1,0,1,0,0,0,0,"Python, SQL, R, Machine Learning, Tableau",0,0,0,0,1,0,0,0,0,0,0,Massachusetts,Consulting & business services,1,0,0,0,0,0,Data analyst,1,0,0,Uber,2000,3.7,0,0,0,1,0,1,0,0
 "[27] ""internet.and.software""",6,1,1,0,1,0,1,1,0,1,0,"Python, SQL, R, Tableau, SAS, Java",0,0,0,0,0,0,1,0,0,0,0,Washington,Consulting & business services,1,0,0,0,0,0,Data analyst,1,0,0,Amazon,60800,3.6,0,0,0,1,0,1,0,0
-"[28] ""banks.and.financial.services""",6,1,1,1,1,0,1,1,0,0,0,"Python, SQL, R, Machine Learning, Tableau, SAS",0,0,0,0,1,0,0,0,0,0,0,Massachusetts,Consulting & business services,1,0,0,0,0,0,Data scientist,0,0,1,PwC,7600,4.0,0,0,0,1,0,1,0,0
+"[28] ""banks.and.financial.services""",6,1,1,1,1,0,1,1,0,0,0,"Python, SQL, R, Machine Learning, Tableau, SAS",0,0,0,0,1,0,0,0,0,0,0,Massachusetts,Consulting & business services,1,0,0,0,0,0,Data scientist,0,0,1,PwC,7600,4,0,0,0,1,0,1,0,0
 "[29] ""health.care""",5,1,1,1,1,0,1,0,0,0,0,"Python, SQL, R, Machine Learning, Tableau",0,0,0,0,1,0,0,0,0,0,0,Massachusetts,Banks & financial services,0,0,1,0,0,0,Data analyst,1,0,0,Harnham,9,4.6,0,0,1,0,0,0,1,0
 "[30] ""insurance""",5,1,1,1,1,0,1,0,0,0,0,"Python, SQL, R, Machine Learning, Tableau",0,0,0,0,0,0,1,0,0,0,0,Washington,Internet & Software,0,1,0,0,0,0,Data analyst,1,0,0,Amazon,60800,3.6,0,0,0,1,0,1,0,0
 "[31] ""other_industries""",5,1,1,1,1,0,1,0,0,0,0,"Python, SQL, R, Machine Learning, Tableau",0,0,0,0,1,0,0,0,0,0,0,Massachusetts,Banks & financial services,0,0,1,0,0,0,Data analyst,1,0,0,Google ,3700,4.3,0,0,0,1,0,1,0,0
@@ -51,7 +51,7 @@
 ,1,0,0,0,0,0,0,0,0,0,1,Java,0,0,0,0,0,0,0,0,1,0,0,"Washington, DC",Consulting & business services,1,0,0,0,0,0,Data analyst,1,0,0,Amazon,60800,3.6,0,0,0,1,0,1,0,0
 ,4,1,1,0,1,0,1,0,0,0,0,"Python, SQL, R, Tableau",0,0,0,0,1,0,0,0,0,0,0,Massachusetts,Consulting & business services,1,0,0,0,0,0,Data analyst,1,0,0,Boston Consulting Group,276,4.2,0,1,0,0,0,1,0,0
 ,4,1,0,1,1,0,1,0,0,0,0,"Python, R, Machine Learning, Tableau",0,0,0,0,0,1,0,0,0,0,0,Illinois,Internet & Software,0,1,0,0,0,0,Data analyst,1,0,0,Amazon ,60800,3.6,0,0,0,1,0,1,0,0
-,3,0,0,1,1,0,1,0,0,0,0,"R, Machine Learning, Tableau",1,0,0,0,0,0,0,0,0,0,0,California,Consulting & business services,1,0,0,0,0,0,Data analyst,1,0,0,Deloitte,9400,4.0,0,0,0,1,0,1,0,0
+,3,0,0,1,1,0,1,0,0,0,0,"R, Machine Learning, Tableau",1,0,0,0,0,0,0,0,0,0,0,California,Consulting & business services,1,0,0,0,0,0,Data analyst,1,0,0,Deloitte,9400,4,0,0,0,1,0,1,0,0
 ,5,1,1,1,1,0,1,0,0,0,0,"Python, SQL, R, Machine Learning, Tableau",0,0,0,0,1,0,0,0,0,0,0,Massachusetts,Consulting & business services,1,0,0,0,0,0,Data analyst,1,0,0,McKinsey ,540,4.3,0,0,0,1,0,1,0,0
 ,4,0,1,0,1,0,1,0,0,0,1,"SQL, R, Tableau, powerbi",0,0,0,0,0,0,0,0,1,0,0,"Washington, DC",Banks & financial services,0,0,1,0,0,0,Data analyst,1,0,0,Mckinsey,540,4.3,0,0,0,1,0,1,0,0
 ,1,0,0,0,1,0,0,0,0,0,0,R,0,0,0,0,1,0,0,0,0,0,0,Massachusetts,Consulting & business services,1,0,0,0,0,0,Data analyst,1,0,0,IBM,29600,3.9,0,0,0,1,0,1,0,0
@@ -59,3 +59,4 @@
 ,7,1,1,1,1,0,1,0,0,0,2,"Python, SQL, R, Machine Learning, Tableau, Stats, EViews",0,1,0,0,0,0,0,0,0,0,0,New York,Banks & financial services,0,0,1,0,0,0,Data analyst,1,0,0,Apple,9600,4.2,0,0,0,1,0,1,0,0
 ,5,1,1,1,1,0,1,0,0,0,0,"Python, SQL, R, Machine Learning, Tableau",1,0,0,0,0,0,0,0,0,0,0,California,Internet & Software,0,1,0,0,0,0,Data scientist,0,0,1,Apple,9600,4.2,0,0,0,1,0,1,0,0
 ,4,1,1,0,1,0,1,0,0,0,0,"Python, SQL, R, Tableau",1,0,0,0,0,0,0,0,0,0,0,California,Internet & Software,0,1,0,0,0,0,Data scientist,0,0,1,Microsoft,6800,4.2,0,0,0,1,0,1,0,0
+,5,1,1,1,1,0,1,0,0,0,0,NA,0,1,0,0,0,0,0,0,0,0,0,NA,NA,1,0,0,0,0,0,NA,1,0,0,NA,0,0,0,0,0,0,1,0,0,1
