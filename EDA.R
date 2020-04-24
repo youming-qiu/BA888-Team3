@@ -10,7 +10,7 @@ library(RColorBrewer)
 
 options(scipen=200)
 
-## load datasets
+### Load datasets####
 alldata <- read.csv("alldata.csv")
 
 all <- alldata %>% 
@@ -88,3 +88,5 @@ ggplot(data = house, aes(x = house$grade, y = house$price)) +
   ggtitle('Relationship Between House Price and Grading in Seattle') +
   labs(x = 'Grade', y = 'Price', caption = 'Data source: Kaggle Seattle House Sales Data')
 
+
+##N-gram
