@@ -1,0 +1,760 @@
+Job Classification,Female Avg Hrly Rate,No. Female Empl,Male Avg Hrly Rate,No. Male Empl,Total Avg Hrly Rate,Total No. Empl,Female to male % rate,Female to male % count,Notes
+Accountant,30.58,23,30.28,7,30.51,30,101,329,
+"Accountant,Prin",38.75,23,37.64,7,38.49,30,103,329,
+"Accountant,Sr",34.479999999999997,23,33.89,6,34.36,29,102,383,
+Act Exec,43.1,4,42.02,7,42.42,11,103,57,
+Actg Tech I,22.56,1,,,22.56,1,,,no men in title
+Actg Tech I-BU,22.56,10,22.56,2,22.56,12,100,500,
+Actg Tech II,23.98,7,24.35,1,24.03,8,98,700,
+Actg Tech II-BU,24.19,74,24.21,18,24.2,92,100,411,
+Actg Tech III,26.64,7,,,26.64,7,,,no men in title
+Actg Tech III-BU,26.69,32,26.18,5,26.63,37,102,640,
+Actg Tech II-MC,24.35,2,,,24.35,2,,,no men in title
+Actg Tech Supv-BU,28.84,4,,,28.84,4,,,no men in title
+Admin Spec I,22.35,15,21.76,2,22.28,17,103,750,
+Admin Spec I-BU,22.43,78,22.43,12,22.43,90,100,650,
+Admin Spec II,24.32,28,23.9,4,24.26,32,102,700,
+Admin Spec II-BU,24.25,140,24.11,18,24.24,158,101,778,
+Admin Spec III,26.1,12,26.26,2,26.12,14,99,600,
+Admin Spec III-BU,25.94,30,25.93,3,25.94,33,100,1000,
+Admin Spec III-MC,26.26,1,,,26.26,1,,,no men in title
+Admin Spec II-MC,24.35,28,24.35,2,24.35,30,100,1400,
+Admin Spec I-MC,22.56,16,22.56,3,22.56,19,100,533,
+Admin Staff Anlyst,35.590000000000003,40,35,3,35.549999999999997,43,102,1333,
+Admin Staff Asst,30.86,54,30.48,8,30.82,62,101,675,
+Admin Support Asst,20.61,1,,,20.61,1,,,no men in title
+Admin Support Asst-BU,20.3,10,20.61,2,20.36,12,99,500,
+Admin Support Asst-MC,,,20.61,2,20.61,2,,,no women in title
+Admin Support Supv-BU,27.58,10,27.78,2,27.61,12,99,500,
+Admin Support Supv-MC,27.78,4,27.78,1,27.78,5,100,400,
+Administrator-Law,48.11,1,,,48.11,1,,,no men in title
+Adms Employee,17.11,5,17.11,8,17.11,13,100,63,
+Adms Personnel Dispatcher,,,24.1,1,24.1,1,,,no women in title
+Animal Contrl Ofcr I,24.32,1,24.08,4,24.13,5,101,25,
+Animal Contrl Ofcr II,26.53,3,26.53,6,26.53,9,100,50,
+Animal Contrl Ofcr Supv,30.72,2,,,30.72,2,,,no men in title
+"Appraiser,Sr",,,43.91,1,43.91,1,,,no women in title
+Apprenticeship Coord,33.69,2,,,33.69,2,,,no men in title
+Aquarium Biologist 1,23.88,2,23.88,1,23.88,3,100,200,
+Aquarium Biologist 2,26.26,5,26.26,3,26.26,8,100,167,
+Aquarium Biologist 3,,,31.16,3,31.16,3,,,no women in title
+Aquarium Laboratory Spec,26.26,1,,,26.26,1,,,no men in title
+"Aquarium Systs Op,Chief",,,37.700000000000003,1,37.700000000000003,1,,,no women in title
+Aquatic Cntr Coord,32.520000000000003,7,32.520000000000003,2,32.520000000000003,9,100,350,
+"Aquatic Cntr Coord,Asst",28.75,4,29.17,3,28.93,7,99,133,
+Arboriculturist,33.090000000000003,1,32.9,7,32.92,8,101,14,
+Arborist,,,44.74,2,44.74,2,,,no women in title
+"Architect,Sr",,,44.74,1,44.74,1,,,no women in title
+Arts Conserv Tech,27.78,1,27.78,1,27.78,2,100,100,
+Arts Prgm Spec,32.35,5,,,32.35,5,,,no men in title
+"Arts Prgm Spec,Sr",36.369999999999997,4,36.299999999999997,1,36.36,5,100,400,
+Asphalt Raker,,,26.94,4,26.94,4,,,no women in title
+"Asphalt Raker,Sr",,,28.23,7,28.23,7,,,no women in title
+Asst To The Supt,,,46.41,1,46.41,1,,,no women in title
+Auto Body Wkr/Pntr,,,29.79,2,29.79,2,,,no women in title
+Auto Engr,,,39.200000000000003,2,39.200000000000003,2,,,no women in title
+"Auto Engr,Sr",,,40.74,4,40.74,4,,,no women in title
+Auto Equip Pntr,,,29.79,1,29.79,1,,,no women in title
+Auto Maint CC,,,36.28,4,36.28,4,,,no women in title
+Auto Mechanic,31.02,1,31.02,48,31.02,49,100,2,
+Auto Mechanic Aprn,27.27,1,27.27,2,27.27,3,100,50,
+"Auto Mechanic,Sr",32.6,1,32.6,13,32.6,14,100,8,
+Auto Sheet Metal Wkr,,,29.79,2,29.79,2,,,no women in title
+Bailiff,25.77,7,24.77,1,25.65,8,104,700,
+"Bailiff,Chief",29.41,1,,,29.41,1,,,no men in title
+Benefits Asst,26.26,2,,,26.26,2,,,no men in title
+"Bldg Inspector,Journey",,,38.450000000000003,2,38.450000000000003,2,,,no women in title
+"Bldg Inspector,Sr(Expert)",,,40.74,10,40.74,10,,,no women in title
+"Bldg Inspector,Strucl",,,42.25,2,42.25,2,,,no women in title
+Bldg Operating Engr,,,31.16,3,31.16,3,,,no women in title
+Bldg Plans Examiner,36.450000000000003,2,35.380000000000003,4,35.74,6,103,50,
+"Bldg Plans Examiner,Sr",42.25,2,,,42.25,2,,,no men in title
+Bldg/Facilities Opns Supv-BU,,,30.58,2,30.58,2,,,no women in title
+Bridge Carpentry&Maint Lead,,,30.28,3,30.28,3,,,no women in title
+Bridge Elecl CC,,,38.1,1,38.1,1,,,no women in title
+Bridge Elecl Maint Supv,,,41.07,1,41.07,1,,,no women in title
+Bridge Maint General Supv,,,37.340000000000003,1,37.340000000000003,1,,,no women in title
+Bridge Maint Mech Hlpr,,,23.79,3,23.79,3,,,no women in title
+Bridge Maint Mechanic,,,33.369999999999997,3,33.369999999999997,3,,,no women in title
+Bridge Maint Mechanic CC,,,35.43,1,35.43,1,,,no women in title
+Bridge Op,27.34,1,27.26,12,27.27,13,100,8,
+"Bridge Op,Sr",28.85,2,28.85,2,28.85,4,100,100,
+Bridge Opns CC,,,34.020000000000003,1,34.020000000000003,1,,,no women in title
+Bridge Opns General Supv,37.39,1,,,37.39,1,,,no men in title
+"Buyer,Sr",39.96,3,38.86,4,39.33,7,103,75,
+Camp Svc Aide,17.989999999999998,2,,,17.989999999999998,2,,,no men in title
+"Camp Svc Aide,Sr",19.8,1,,,19.8,1,,,no men in title
+Capital Prjts Coord,41.56,3,41.04,9,41.17,12,101,33,
+Capital Prjts Coord Supv,42.51,1,49.33,1,45.92,2,86,100,
+Capital Prjts Coord Supv-BU,49.33,1,47.62,1,48.48,2,104,100,
+"Capital Prjts Coord,Asst",38.5,3,,,38.5,3,,,no men in title
+"Capital Prjts Coord,Chief",49.33,1,,,49.33,1,,,no men in title
+"Capital Prjts Coord,Sr",46.98,12,47.12,35,47.08,47,100,34,
+Carpenter,30.28,4,30.28,18,30.28,22,100,22,
+Carpenter CC,,,34.08,4,34.08,4,,,no women in title
+"Carpenter,Sr",31.57,1,31.57,3,31.57,4,100,33,
+Cashier,16.62,12,16.600000000000001,5,16.61,17,100,240,
+"Cashier,Sr",19.38,3,18.739999999999998,1,19.22,4,103,300,
+Cblspl Aprn,,,31.68,4,31.68,4,,,no women in title
+Cblspl CC-Asg C Coord,,,46.28,2,46.28,2,,,no women in title
+Cblspl CC-Asg Locator,46.28,1,,,46.28,1,,,no men in title
+Cblspl CC-Net Area,46.28,3,46.28,16,46.28,19,100,19,
+Cblspl-Asg Locator,41.14,1,41.14,2,41.14,3,100,50,
+Cblspl-Jrnywkr In Chg,,,43.33,3,43.33,3,,,no women in title
+Cblspl-Net Area,41.14,5,41.14,37,41.14,42,100,14,
+Cement Finisher,,,28.24,5,28.24,5,,,no women in title
+"Cement Finisher,Sr",,,29.88,5,29.88,5,,,no women in title
+Cement Finisher-Parks Facils,,,30.28,2,30.28,2,,,no women in title
+"City Archivist,Asst",38.479999999999997,3,,,38.479999999999997,3,,,no men in title
+City Attorney,,,73.260000000000005,1,73.260000000000005,1,,,no women in title
+City Records Mgmt Anlyst,36.299999999999997,1,32.39,1,34.35,2,112,100,
+Civil Engr Supv,54.51,13,54.16,31,54.26,44,101,42,
+"Civil Engr,Assoc",39.700000000000003,14,39.909999999999997,28,39.840000000000003,42,99,50,
+"Civil Engr,Asst I",,,29.69,3,29.69,3,,,no women in title
+"Civil Engr,Asst II",,,32.36,4,32.36,4,,,no women in title
+"Civil Engr,Asst III",,,37.380000000000003,2,37.380000000000003,2,,,no women in title
+"Civil Engr,Sr",49.61,31,50.2,60,50,91,99,52,
+Civil Engrng Spec Supv,45.51,6,45.51,11,45.51,17,100,55,
+"Civil Engrng Spec,Assoc",38.06,28,38.06,56,38.06,84,100,50,
+"Civil Engrng Spec,Asst I",29.41,2,28.33,5,28.64,7,104,40,
+"Civil Engrng Spec,Asst II",29.05,1,31.34,7,31.05,8,93,14,
+"Civil Engrng Spec,Asst III",34.909999999999997,10,34.729999999999997,16,34.799999999999997,26,101,63,
+"Civil Engrng Spec,Sr",43.08,20,42.85,53,42.91,73,101,38,
+Civil Rights Anlyst,31.19,4,33.56,1,31.67,5,93,400,
+"Civil Rights Anlyst,Sr",36.299999999999997,2,36.33,1,36.31,3,100,200,
+Civil Svc Commissioner,5.53,1,5.53,5,5.53,6,100,20,
+Claims Adjuster I,31.76,1,,,31.76,1,,,no men in title
+Claims Adjuster-FAS,36.299999999999997,1,40.74,2,39.26,3,89,50,
+Code Compliance Anlyst,37.700000000000003,2,,,37.700000000000003,2,,,no men in title
+Code Compliance Coord,43.1,1,,,43.1,1,,,no men in title
+"Code Dev Anlyst,Sr",40.74,1,,,40.74,1,,,no men in title
+Com Dev Spec,35.21,6,36.299999999999997,2,35.49,8,97,300,
+"Com Dev Spec,Sr",42.47,5,43.1,3,42.71,8,99,167,
+Com Garden Coord,32.39,5,32.39,1,32.39,6,100,500,
+Commercial Veh Enf Ofcr,,,30.24,1,30.24,1,,,no women in title
+Comms Elctn CC,,,47.15,1,47.15,1,,,no women in title
+Comms Elctn II,,,41.91,14,41.91,14,,,no women in title
+Comms Elctn Jnywrk-In Chg-Skt,,,44.15,1,44.15,1,,,no women in title
+Complaint Investigator,31.76,3,31.76,2,31.76,5,100,150,
+Constr&Maint Equip Op,30.49,1,30.49,26,30.49,27,100,4,
+"Constr&Maint Equip Op,Sr",32.01,1,32.01,19,32.01,20,100,5,
+Constr&Repair CC,,,33.380000000000003,3,33.380000000000003,3,,,no women in title
+Contract Anlyst,31.18,3,,,31.18,3,,,no men in title
+Contract Employee *,45.96,2,61.42,1,51.11,3,75,200,
+Contracts&Concss Asst,,,29.99,1,29.99,1,,,no women in title
+Contrl Tech,,,33.090000000000003,1,33.090000000000003,1,,,no women in title
+Cook,,,25.04,1,25.04,1,,,no women in title
+Council Clerk,31.76,2,,,31.76,2,,,no men in title
+Councilmember,57.07,3,56.88,6,56.94,9,100,50,
+Counslr,29.4,80,30.39,14,29.55,94,97,571,
+Court Cashier,24.66,7,24.55,5,24.62,12,100,140,
+Court Cashier Supv,27.04,1,27.04,1,27.04,2,100,100,
+Court Clerk,25.04,20,25.32,1,25.06,21,99,2000,
+Court Clerk Supv,26.8,3,,,26.8,3,,,no men in title
+Court Interpreter Coord,39.200000000000003,1,,,39.200000000000003,1,,,no men in title
+Credit Rep,28.83,3,28.58,4,28.69,7,101,75,
+"Credit Rep,Sr",,,31.41,2,31.41,2,,,no women in title
+Credit&Colls Supv-BU,36.299999999999997,1,36.299999999999997,1,36.299999999999997,2,100,100,
+Crime Prev Coord,33.69,1,33.69,3,33.69,4,100,33,
+Cust Svc Rep,24.21,34,24.32,8,24.23,42,100,425,
+Cust Svc Rep Supv,30.35,1,30.35,1,30.35,2,100,100,
+"Cust Svc Rep,Sr",26.18,5,,,26.18,5,,,no men in title
+Delivery Wkr,21.36,2,21.36,3,21.36,5,100,67,
+Dev Fin Spec I,33.090000000000003,2,,,33.090000000000003,2,,,no men in title
+"Dev Fin Spec,Sr",37.74,2,,,37.74,2,,,no men in title
+Dining Room Attendant,15.66,2,14.8,1,15.37,3,106,200,
+"Dining Room Attendant,Sr",,,18.11,1,18.11,1,,,no women in title
+Disposal CC I,33.93,2,33.93,2,33.93,4,100,100,
+Dispute Resolution Mediator,38.479999999999997,1,,,38.479999999999997,1,,,no men in title
+Drainage&Wstwtr Coll CC,36.72,2,36.72,9,36.72,11,100,22,
+Drainage&Wstwtr Coll Lead Wkr,,,30.7,11,30.7,11,,,no women in title
+Drainage&Wstwtr Coll Wkr,27.56,2,27.42,15,27.44,17,101,13,
+Drainage&Wstwtr Coll Wkr Aprn,23.98,3,23.93,10,23.94,13,100,30,
+Drainage&Wstwtr Coll Wkr CI,28.09,4,28.09,15,28.09,19,100,27,
+Drainage&Wstwtr Lead Wkr CII,29.81,2,31.31,26,31.2,28,95,8,
+Drainage&Wstwtr Spec,38.44,1,,,38.44,1,,,no men in title
+Early Ed Spec,33.89,6,34.32,1,33.950000000000003,7,99,600,
+"Early Ed Spec,Sr",36.28,2,,,36.28,2,,,no men in title
+Economist,34.32,1,35.659999999999997,2,35.21,3,96,50,
+"Economist,Prin",47.26,1,47.26,3,47.26,4,100,33,
+"Economist,Sr",44.28,7,43.15,2,44.03,9,103,350,
+Ed Prgm Asst,22.56,4,,,22.56,4,,,no men in title
+Ed Prgm Supv,35.57,2,,,35.57,2,,,no men in title
+Elctn,36.25,2,36.08,16,36.090000000000003,18,100,13,
+Elctn CC,40.130000000000003,3,,,40.130000000000003,3,,,no men in title
+"Elctn,Sr",,,37.51,1,37.51,1,,,no women in title
+Elctn-Con,41.14,6,41.14,59,41.14,65,100,10,
+Elctn-Con Aprn,,,31.84,5,31.84,5,,,no women in title
+Elctn-Con CC,,,46.28,1,46.28,1,,,no women in title
+Elctn-Con-(OI),41.14,4,41.14,8,41.14,12,100,50,
+Elctn-Con-Wkg CC,46.28,2,46.28,11,46.28,13,100,18,
+"Elec Engrng Des Spec,Asst II",,,34.6,1,34.6,1,,,no women in title
+"Elec Engrng Des Spec,Asst III",,,35.99,2,35.99,2,,,no women in title
+Elec-Con CC-Asg Crew Coord,,,46.28,1,46.28,1,,,no women in title
+Elec-Con Core CC,,,46.28,2,46.28,2,,,no women in title
+Elec-Con(OI)Wkg CC-C Coord,46.28,1,46.28,1,46.28,2,100,100,
+Elec-Con-Wkg CC-Asg C Coord,,,46.28,3,46.28,3,,,no women in title
+Elecl Constr&Maint Supv-BU,55.04,3,54.85,11,54.89,14,100,27,
+"Elecl Engr,Assoc",39.36,5,39.049999999999997,19,39.119999999999997,24,101,26,
+"Elecl Engr,Asst I",30.85,2,29.95,9,30.11,11,103,22,
+"Elecl Engr,Asst II",,,33.74,6,33.74,6,,,no women in title
+"Elecl Engr,Asst III",,,36.69,4,36.69,4,,,no women in title
+"Elecl Engr,Sr",50.69,1,50.69,1,50.69,2,100,100,
+Elecl Engrng Spec Supv,44.41,3,45.51,2,44.85,5,98,150,
+"Elecl Engrng Spec,Assoc",37.119999999999997,7,37.520000000000003,4,37.270000000000003,11,99,175,
+"Elecl Engrng Spec,Asst I",29.05,2,27.52,2,28.29,4,106,100,
+"Elecl Engrng Spec,Asst II",30.74,2,,,30.74,2,,,no men in title
+"Elecl Engrng Spec,Asst III",34.64,4,,,34.64,4,,,no men in title
+"Elecl Engrng Spec,Sr",42.85,5,43.08,16,43.03,21,99,31,
+Elecl Hlpr,,,29.11,5,29.11,5,,,no women in title
+Elecl Hlpr-Bndry,,,29.11,1,29.11,1,,,no women in title
+Elecl Inspector Supv,,,45.58,2,45.58,2,,,no women in title
+"Elecl Inspector,(J)",38.369999999999997,1,38.369999999999997,2,38.369999999999997,3,100,50,
+"Elecl Inspector,Sr(Expert)",43.06,2,43.06,13,43.06,15,100,15,
+Elecl Plans Examiner,,,40.42,3,40.42,3,,,no women in title
+Elecl Pwr Systs Engr,51.93,6,51.4,15,51.55,21,101,40,
+"Elecl Pwr Systs Engr,Prin",54.42,4,55.22,11,55,15,99,36,
+"Elecl PwrSystsEngr,Prin-Mrt",60.11,1,58.25,10,58.42,11,103,10,
+Elecl PwrSystsEngr-Mrt,55.08,1,55.08,2,55.08,3,100,50,
+Elecl Quality Assurance Spec,,,37.380000000000003,1,37.380000000000003,1,,,no women in title
+Elecl Svc Engr,45.25,1,44.27,5,44.44,6,102,20,
+Elecl Svc Rep,31.79,6,32.31,7,32.07,13,98,86,
+"Elecl Svc Rep,Sr",35.380000000000003,4,34.71,13,34.869999999999997,17,102,31,
+"Elecl Svc Rep,Supvsng",39.950000000000003,3,39.950000000000003,4,39.950000000000003,7,100,75,
+Elecl Work Rev CC,,,46.28,4,46.28,4,,,no women in title
+Elevator Inspector(J),,,37.729999999999997,3,37.729999999999997,3,,,no women in title
+"Elevator Inspector,Chief",,,43.92,2,43.92,2,,,no women in title
+"Elevator Inspector,Sr(Expert)",40.74,1,40.74,6,40.74,7,100,17,
+Engrng Aide,24.69,5,25.99,6,25.4,11,95,83,
+Engrng Emerg Laborer,,,28.77,5,28.77,5,,,no women in title
+Enrgy Mgmt Anlyst,41.39,1,41.42,4,41.41,5,100,25,
+Enrgy Mgmt Anlyst Supv,49.56,2,49.56,2,49.56,4,100,100,
+"Enrgy Mgmt Anlyst,Asst",35.57,3,36.590000000000003,5,36.21,8,97,60,
+"Enrgy Mgmt Anlyst,Sr",45.96,4,45.96,14,45.96,18,100,29,
+Enrgy Plng Anlyst,33.69,1,33.67,2,33.67,3,100,50,
+Enrgy Plng Supv-BU,,,49.56,2,49.56,2,,,no women in title
+Enrgy Res&Eval Anlyst,,,39.96,1,39.96,1,,,no women in title
+"Envrnmtl Anlyst,Assoc",35.049999999999997,2,35.93,3,35.58,5,98,67,
+"Envrnmtl Anlyst,Sr",42.85,19,42.63,13,42.76,32,101,146,
+Envrnmtl Fld Spec,31.74,4,31.74,2,31.74,6,100,200,
+"Envrnmtl Fld Spec,Sr",,,34.270000000000003,2,34.270000000000003,2,,,no women in title
+Equal Emplmnt Coord,37.75,2,,,37.75,2,,,no men in title
+Equip Maint CC,,,34.92,2,34.92,2,,,no women in title
+Equip Svcr,,,24.28,13,24.28,13,,,no women in title
+Equip&Facilities Coord,,,34.04,7,34.04,7,,,no women in title
+"Equip&Facils Coord,Sr",,,37.700000000000003,1,37.700000000000003,1,,,no women in title
+Events Booking Rep,29.99,1,27.78,1,28.89,2,108,100,
+"Events Booking Rep,Sr",36.299999999999997,1,31.16,1,33.729999999999997,2,116,100,
+Events Svc Rep,32.39,3,,,32.39,3,,,no men in title
+"Events Svc Rep,Sr",36.299999999999997,3,36.299999999999997,2,36.299999999999997,5,100,150,
+Evidence Warehouser,23.8,3,25.03,2,24.29,5,95,150,
+"Evidence Warehouser,Sr",27.54,2,27.54,4,27.54,6,100,50,
+Exec Asst,41.56,14,43.1,2,41.75,16,96,700,
+"Exec Asst,Sr",44.03,9,43.15,2,43.87,11,102,450,
+Exhibits Tech,,,28.03,1,28.03,1,,,no women in title
+Facilities Lead Wkr,26.5,1,26.5,5,26.5,6,100,20,
+Facilities Maint Wkr,26.5,1,26.34,6,26.36,7,101,17,
+Facilities Support Coord,,,39.200000000000003,1,39.200000000000003,1,,,no women in title
+"Facility Maint Supv,Asst",,,42.34,3,42.34,3,,,no women in title
+Facility Techl Supv,,,35.619999999999997,2,35.619999999999997,2,,,no women in title
+Facility Techl Supv-BU,,,36.299999999999997,1,36.299999999999997,1,,,no women in title
+Fair Hearing Coord,,,33.6,1,33.6,1,,,no women in title
+Fin Anlyst,33.979999999999997,10,,,33.979999999999997,10,,,no men in title
+Fin Anlyst Supv,,,41.55,1,41.55,1,,,no women in title
+"Fin Anlyst,Asst",27.48,3,28.84,1,27.82,4,95,300,
+"Fin Anlyst,Sr",39.659999999999997,20,39.090000000000003,17,39.4,37,101,118,
+Fire Battalion Chief-80 Hrs,,,65.849999999999994,1,65.849999999999994,1,,,no women in title
+Fire Battalion Chief-91.4 Hrs,59.25,1,57.8,22,57.86,23,103,5,
+Fire Capt-80 Hrs,,,56.09,1,56.09,1,,,no women in title
+Fire Capt-91.40 Hrs,48.12,4,47.77,32,47.81,36,101,13,
+Fire Capt-Admin-80 Hrs,57.39,1,57.39,2,57.39,3,100,50,
+Fire Capt-Dispatcher-80 Hrs,,,58.14,1,58.14,1,,,no women in title
+Fire Capt-HM-91.40 Hrs,,,49.2,3,49.2,3,,,no women in title
+Fire Capt-MU-91.40 Hrs,,,50.07,2,50.07,2,,,no women in title
+Fire Capt-ParamedTechSrEMS-80,,,64.290000000000006,1,64.290000000000006,1,,,no women in title
+Fire Capt-Prev Inspector I,,,57.64,3,57.64,3,,,no women in title
+Fire Capt-Trng Div-80 Hrs,,,56.77,3,56.77,3,,,no women in title
+Fire Capt-TRT-91.40 Hrs,,,49.42,1,49.42,1,,,no women in title
+"Fire Chief,Dep-80 Hrs",,,75.260000000000005,5,75.260000000000005,5,,,no women in title
+"Fire Chief,Dep-91.4 Hrs",,,66.42,4,66.42,4,,,no women in title
+Fire Equip Tech,27.25,1,27.25,2,27.25,3,100,50,
+Fire Lieut-80 Hrs,,,48.48,5,48.48,5,,,no women in title
+Fire Lieut-91.40 Hrs,42.42,11,41.87,93,41.93,104,101,12,
+Fire Lieut-Admin-80 Hrs,,,49.3,2,49.3,2,,,no women in title
+Fire Lieut-Dispatcher-84 Hrs,,,49.62,4,49.62,4,,,no women in title
+Fire Lieut-HM-91.40 Hrs,43.81,1,43.85,8,43.85,9,100,13,
+Fire Lieut-MU-91.40 Hrs,,,43.48,9,43.48,9,,,no women in title
+Fire Lieut-ParamedTechSr-84,,,52.63,4,52.63,4,,,no women in title
+Fire Lieut-ParamedTechSrAMR-80,,,57.12,1,57.12,1,,,no women in title
+Fire Lieut-ParamedTechSrEMS-80,,,56.38,1,56.38,1,,,no women in title
+Fire Lieut-Prev Inspector I,52.09,2,51.4,7,51.55,9,101,29,
+Fire Lieut-Trng Div-80 Hrs,,,49.42,6,49.42,6,,,no women in title
+Fire Lieut-TRT-91.40 Hrs,,,43.81,3,43.81,3,,,no women in title
+Fire Protection Engr,,,40.06,4,40.06,4,,,no women in title
+"Fire Protection Engr,Sr",,,47.26,2,47.26,2,,,no women in title
+Fire Svcs Spec,,,27.25,1,27.25,1,,,no women in title
+Fireboat Engr-91.40 Hrs,,,48.44,4,48.44,4,,,no women in title
+Fireboat Pilot-91.40 Hrs,,,47.49,4,47.49,4,,,no women in title
+Fireftr-80 Hrs,,,40.93,2,40.93,2,,,no women in title
+Fireftr-91.40 Hrs,35.68,17,34.36,307,34.43,324,104,6,
+Fireftr-Ap Drvr-80 Hrs,,,45.58,2,45.58,2,,,no women in title
+Fireftr-AP Drvr-91.40 Hrs,38.11,10,38.409999999999997,158,38.39,168,99,6,
+Fireftr-Dispatcher-84 Hrs,43.58,14,43.16,9,43.42,23,101,156,
+Fireftr-FIU Prev Insp I-84 Hrs,,,43.72,7,43.72,7,,,no women in title
+Fireftr-HM Ap Drvr-80 Hrs,,,45.58,1,45.58,1,,,no women in title
+Fireftr-HM Ap Drvr-91.40 Hrs,,,41,16,41,16,,,no women in title
+Fireftr-HM-80 Hrs,,,41.86,1,41.86,1,,,no women in title
+Fireftr-HM-91.40 Hrs,37.46,4,36.85,41,36.9,45,102,10,
+Fireftr-MU Ap Drvr-91.40 Hrs,,,39.81,7,39.81,7,,,no women in title
+Fireftr-MU-91.40 Hrs,,,37.76,28,37.76,28,,,no women in title
+Fireftr-ParamedTech-91.40 Hrs,40.71,2,40.26,15,40.31,17,101,13,
+Fireftr-ParamedTechSr-91.40,42.69,14,42.48,35,42.54,49,100,40,
+Fireftr-Prev Insp I,45.89,3,46.06,10,46.02,13,100,30,
+Fireftr-Staff10-91.40 Hrs,,,39.979999999999997,4,39.979999999999997,4,,,no women in title
+Fireftr-TRT Ap Drvr-91.40 Hrs,41.21,1,40.770000000000003,3,40.880000000000003,4,101,33,
+Fireftr-TRT-91.40 Hrs,,,37.56,16,37.56,16,,,no women in title
+Fireftr-TRT-R1 Ap Drvr-91.40,,,40.39,4,40.39,4,,,no women in title
+Fleet Mgmt Anlyst,,,36.299999999999997,1,36.299999999999997,1,,,no women in title
+Fleet Mgmt Coord,,,34.94,1,34.94,1,,,no women in title
+Forest Maint CC,,,33.93,1,33.93,1,,,no women in title
+Forest Maint Wkr,,,27.37,5,27.37,5,,,no women in title
+"Forest Maint Wkr,Sr",29.41,1,29.41,1,29.41,2,100,100,
+Gardener,24.33,21,24,21,24.17,42,101,100,
+"Gardener,Asst",,,21.77,1,21.77,1,,,no women in title
+"Gardener,Sr",27.14,9,27.18,15,27.17,24,100,60,
+Generation Supv,,,54.61,1,54.61,1,,,no women in title
+Generation Supv-BU,,,54.61,2,54.61,2,,,no women in title
+Golf Course Groundskeeper I,,,13.75,3,13.75,3,,,no women in title
+Golf Course Groundskeeper II,18.12,2,18.12,4,18.12,6,100,50,
+Golf Course Maint Supv,,,33.78,4,33.78,4,,,no women in title
+Golf Course Tech,,,23.71,10,23.71,10,,,no women in title
+Grants&Contracts Spec,30.55,1,,,30.55,1,,,no men in title
+"Grants&Contracts Spec,Sr",32.43,26,32.409999999999997,7,32.43,33,100,371,
+Graphic Arts Designer,29.61,3,29.99,1,29.7,4,99,300,
+Grounds Equip Mechanic,,,27.62,6,27.62,6,,,no women in title
+"Grounds Equip Mechanic,Sr",,,29.99,3,29.99,3,,,no women in title
+Grounds Maint CC,,,33.380000000000003,2,33.380000000000003,2,,,no women in title
+Grounds Maint Lead Wkr,26.5,5,26.5,10,26.5,15,100,50,
+"Hearing Examiner,Dep",59.89,1,,,59.89,1,,,no men in title
+Housing Ordinance Spec,31.16,1,,,31.16,1,,,no men in title
+Housing Ordinance Supv,,,36.299999999999997,1,36.299999999999997,1,,,no women in title
+Housing/Zoning Inspector,34.32,5,33.68,4,34.04,9,102,125,
+Housing/Zoning Inspector Supv,,,39.96,1,39.96,1,,,no women in title
+"Housing/Zoning Inspector,Sr",36.299999999999997,1,36.299999999999997,1,36.299999999999997,2,100,100,
+Housing/Zoning Tech,26.26,2,,,26.26,2,,,no men in title
+"Housing/Zoning Tech,Sr",,,28.84,1,28.84,1,,,no women in title
+HRIS Spec,33.69,2,33.69,1,33.69,3,100,200,
+Human Svcs Coord,29.99,5,,,29.99,5,,,no men in title
+Human Svcs Prgm Supv,35.96,4,,,35.96,4,,,no men in title
+"Human Svcs Prgm Supv,Sr",37.25,5,37.82,4,37.5,9,98,125,
+HVAC Tech,,,32.619999999999997,16,32.619999999999997,16,,,no women in title
+Hydro Maint Wkr I-Gen,,,24.65,6,24.65,6,,,no women in title
+Hydro Maint Wkr II-Gen,,,26,1,26,1,,,no women in title
+Hydroelec Maint Mach,,,38.36,11,38.36,11,,,no women in title
+Hydroelec Maint Mach CC,,,44.51,3,44.51,3,,,no women in title
+Hydroelec Op II,41.14,2,41.14,11,41.14,13,100,18,
+Identification Data Spec,24.22,6,24.36,2,24.25,8,99,300,
+Identification Tech,31.57,7,31.74,1,31.59,8,99,700,
+"Indus Hygienist,Certified",,,44.74,1,44.74,1,,,no women in title
+Info Technol Prgmmer Anlyst,36.299999999999997,1,36.299999999999997,2,36.299999999999997,3,100,50,
+Info Technol Spec,31.16,6,31.76,1,31.24,7,98,600,
+Info Technol Systs Anlyst,37.93,15,37.82,34,37.86,49,100,44,
+Info Technol Techl Support,25.77,2,,,25.77,2,,,no men in title
+Inspection Support Anlyst,35,2,,,35,2,,,no men in title
+Installation Maint Wkr,25.54,2,25.33,18,25.35,20,101,11,
+IT Prgmmer Anlyst-Spec,,,36.68,1,36.68,1,,,no women in title
+"Janitor,Lead-FAS/CL",20.96,1,20.96,3,20.96,4,100,33,
+"Janitor,Lead-SC/Parks/SPU",20.96,1,19.38,1,20.170000000000002,2,108,100,
+Janitor-FAS/CL,19.38,6,19.38,17,19.38,23,100,35,
+Janitorial CC-FAS,24.73,1,,,24.73,1,,,no men in title
+Janitor-SC/Parks/SPU,19.38,8,19.38,5,19.38,13,100,160,
+Jrnywkr Asg Streetlighting,,,42.37,2,42.37,2,,,no women in title
+Jrnywkr In Chg,44.63,1,44.63,10,44.63,11,100,10,
+Labor Relations Coord,48.45,3,49.05,1,48.6,4,99,300,
+Labor Relations Spec,42.25,2,,,42.25,2,,,no men in title
+Labor Standards Tech,,,29.99,1,29.99,1,,,no women in title
+Labor Standards Tech Supv,33.69,1,,,33.69,1,,,no men in title
+Laborer,20.96,14,21.08,60,21.06,74,99,23,
+Laborer-Inserting Machine Op,,,21.14,1,21.14,1,,,no women in title
+Land Use Plnr I,35.630000000000003,3,,,35.630000000000003,3,,,no men in title
+Land Use Plnr II,39.200000000000003,4,37.82,4,38.51,8,104,100,
+Land Use Plnr III,41.16,7,41.97,11,41.66,18,98,64,
+Land Use Plnr IV,44.74,8,44.74,4,44.74,12,100,200,
+"Landscape Architect,Sr",44.74,3,44.74,1,44.74,4,100,300,
+Landscape Designer,30.85,1,,,30.85,1,,,no men in title
+Landscape Supv,33.93,2,33.93,1,33.93,3,100,200,
+Latent Print Examiner,34.549999999999997,9,36.299999999999997,1,34.72,10,95,900,
+Latent Print Supv,39.96,1,,,39.96,1,,,no men in title
+Legal Asst,24.9,14,23.88,1,24.83,15,104,1400,
+Legislative Info Anlyst,,,36.299999999999997,1,36.299999999999997,1,,,no women in title
+Legislative Info Spec I,22.96,1,22.96,1,22.96,2,100,100,
+Legislative Info Spec II,29.41,1,,,29.41,1,,,no men in title
+Legislative Info Supv,36.299999999999997,1,,,36.299999999999997,1,,,no men in title
+Licenses&Standards Inspector,31.89,7,33.32,11,32.76,18,96,64,
+Lifeguard,16.61,3,16.39,4,16.48,7,101,75,
+"Lifeguard,Sr",19.5,12,19.46,9,19.48,21,100,133,
+Line C CC,47.67,1,47.67,31,47.67,32,100,3,
+Line CC-Asg C Coord,47.67,1,47.67,5,47.67,6,100,20,
+Lnwkr,42.37,6,42.37,114,42.37,120,100,5,
+Lnwkr Aprn,35.17,1,35.24,17,35.24,18,100,6,
+Lnwkr-Asg Pwrline Clearance,,,45.47,1,45.47,1,,,no women in title
+Lnwrkr-Asg Locator,,,42.37,1,42.37,1,,,no women in title
+Lock Tech,,,27.78,2,27.78,2,,,no women in title
+"Lock Tech,Sr",29.99,1,,,29.99,1,,,no men in title
+Mach Spec,27.51,1,26.78,3,26.97,4,103,33,
+Magistrate,52.25,2,51.27,4,51.6,6,102,50,
+Maint Laborer,23.38,35,23.38,161,23.38,196,100,22,
+"Maint Laborer,Sr-Traffic",25.04,3,25.04,7,25.04,10,100,43,
+Marine Equip Svcr,,,34.32,1,34.32,1,,,no women in title
+Marketing Dev Coord,38.85,4,,,38.85,4,,,no men in title
+"Mat Controller,Prin-BU",35.14,3,,,35.14,3,,,no men in title
+"Mat Controller,Sr",31.16,1,,,31.16,1,,,no men in title
+"Mat Controller,Sr-BU",30.16,2,30.16,1,30.16,3,100,200,
+Mat Controller-BU,24.95,1,,,24.95,1,,,no men in title
+"Mat Handling Supv,General",,,37.700000000000003,1,37.700000000000003,1,,,no women in title
+"Mat Handling Supv,General-BU",37.700000000000003,1,,,37.700000000000003,1,,,no men in title
+"Mat Suplr,Elec-Asg Equip Cust",38.200000000000003,1,38.200000000000003,1,38.200000000000003,2,100,100,
+"Mat Suplr,Elec-Asg Phd/Cw/D",33.96,1,33.96,4,33.96,5,100,25,
+Mat Suplr-Asg Leo/Pdm/Hb,34.130000000000003,1,36.090000000000003,11,35.93,12,95,9,
+"MatSup,Elec-Asg Cs &/or Cdt",,,31.05,17,31.05,17,,,no women in title
+"MatSup,Elec-Asg OPVTCHBNSTR",,,32.020000000000003,8,32.020000000000003,8,,,no women in title
+Mayor,,,86.11,1,86.11,1,,,no women in title
+Mech Engr Supv,,,54.66,1,54.66,1,,,no women in title
+"Mech Engr,Assoc",,,40.86,1,40.86,1,,,no women in title
+"Mech Engr,Sr",,,50.69,6,50.69,6,,,no women in title
+Mech Inspector Supv,,,43.91,1,43.91,1,,,no women in title
+Mech Inspector(J),,,38.81,3,38.81,3,,,no women in title
+Mech Plans Engr,,,41.55,1,41.55,1,,,no women in title
+Mech Plans Engr Supv,,,53.39,1,53.39,1,,,no women in title
+"Mech Plans Engr,Sr",50.07,1,44.8,1,47.44,2,112,100,
+Metal Fabricator,32.54,1,32.54,6,32.54,7,100,17,
+Metal Fabricator CC,,,34.57,2,34.57,2,,,no women in title
+Meter Elctn,41.14,3,41.14,22,41.14,25,100,14,
+Meter Elctn Aprn,,,31.68,2,31.68,2,,,no women in title
+Meter Elctn Working CC,46.28,1,46.28,7,46.28,8,100,14,
+Meter Reader,22.86,12,23,41,22.97,53,99,29,
+Meter Reader Supv,,,30.69,3,30.69,3,,,no women in title
+"Meter Reader,Sr",27.31,2,26.72,7,26.85,9,102,29,
+Mgmt Systs Anlyst,35.4,24,34.270000000000003,9,35.090000000000003,33,103,267,
+Mgmt Systs Anlyst Supv,47.26,2,45.59,2,46.42,4,104,100,
+Mgmt Systs Anlyst Supv-BU,,,47.26,1,47.26,1,,,no women in title
+"Mgmt Systs Anlyst,Asst",31.23,13,31.28,5,31.24,18,100,260,
+"Mgmt Systs Anlyst,Sr",41.79,40,41.81,25,41.8,65,100,160,
+Muni Court Marshal,,,30.24,9,30.24,9,,,no women in title
+"Muni Court Marshal,Sr",35.39,1,,,35.39,1,,,no men in title
+Muni Judge,64.48,3,64.48,4,64.48,7,100,75,
+Naturalist,26.28,2,27.78,1,26.78,3,95,200,
+"Naturalist,Sr",29.99,1,,,29.99,1,,,no men in title
+Neighb District Coord,37.700000000000003,3,37.700000000000003,6,37.700000000000003,9,100,50,
+Noise Contrl Prgm Spec,,,39.96,2,39.96,2,,,no women in title
+Ofc Asst-BU,17.989999999999998,1,,,17.989999999999998,1,,,no men in title
+Ofc Equip Op,20.61,1,,,20.61,1,,,no men in title
+Ofc/Maint Aide,14.45,19,14.75,37,14.65,56,98,51,
+OPA Review Board Member,5.11,2,5.11,3,5.11,5,100,67,
+"Opns CC,Sr-SC",,,33.71,2,33.71,2,,,no women in title
+Opns CC-SC,,,32.35,1,32.35,1,,,no women in title
+Opns Response Cntr Op,29.44,4,29.61,3,29.51,7,99,133,
+Overhead Elecl Suplr,,,30.9,1,30.9,1,,,no women in title
+Paint&Body Supv,,,34.75,1,34.75,1,,,no women in title
+Paralegal,30.71,13,30.91,4,30.75,17,99,325,
+Paralegal Asst II,26.45,3,26.79,1,26.54,4,99,300,
+Park Horticulturist,44.74,1,,,44.74,1,,,no men in title
+Park Ranger,23.42,2,23.88,4,23.73,6,98,50,
+Parking Attendant,,,19.87,3,19.87,3,,,no women in title
+"Parking Attendant,Sr",22.82,1,,,22.82,1,,,no men in title
+Parking Enf Ofcr,24.53,50,24.51,55,24.52,105,100,91,
+Parking Enf Ofcr Supv,29.64,3,30.27,9,30.11,12,98,33,
+Parking Meter Collector,,,21.36,5,21.36,5,,,no women in title
+"Parking Meter Collector,Supvsg",,,25.77,1,25.77,1,,,no women in title
+"Parking Pay Stat Shop,Supv",35.18,1,,,35.18,1,,,no men in title
+Parking Pay Stat Tech,,,29.49,6,29.49,6,,,no women in title
+Parking&Traffic Coord,26.79,1,,,26.79,1,,,no men in title
+Parks Concss Coord,36.99,2,,,36.99,2,,,no men in title
+Parks Maint Aide,,,14.48,8,14.48,8,,,no women in title
+Pol Capt,,,75.260000000000005,10,75.260000000000005,10,,,no women in title
+Parks Maint CC,36.049999999999997,4,36.049999999999997,3,36.049999999999997,7,100,133,
+"Parks Special Events Schdlr,Sr",25.28,1,28.35,2,27.33,3,89,50,
+Parks Special Events Schedlr,26.26,5,26.26,1,26.26,6,100,500,
+Passenger & Tugboat Op,,,29.68,1,29.68,1,,,no women in title
+"Passenger & Tugboat Op,Sr",,,32.67,1,32.67,1,,,no women in title
+Payroll Supv,37.700000000000003,4,37.700000000000003,1,37.700000000000003,5,100,400,
+Permit Process Leader,42.6,3,44.74,3,43.67,6,95,100,
+Permit Spec I,31.61,12,31.59,3,31.6,15,100,400,
+Permit Spec II,31.84,4,31.97,5,31.91,9,100,80,
+Permit Spec Supv,,,37.700000000000003,1,37.700000000000003,1,,,no women in title
+Permit Tech,26.99,6,28.35,2,27.33,8,95,300,
+Permit Tech Supv,33.69,1,,,33.69,1,,,no men in title
+Personnel Anlyst,36.299999999999997,3,,,36.299999999999997,3,,,no men in title
+Personnel Anlyst Supv,49.05,2,,,49.05,2,,,no men in title
+Personnel Anlyst Supv-Comp,49.05,1,,,49.05,1,,,no men in title
+"Personnel Anlyst,Sr",40.270000000000003,3,,,40.270000000000003,3,,,no men in title
+"Personnel Anlyst,Sr-Comp",39.97,2,42.25,2,41.11,4,95,100,
+Personnel Spec,32.39,18,33.69,5,32.68,23,96,360,
+"Personnel Spec,Asst",26.08,11,25.82,3,26.02,14,101,367,
+"Personnel Spec,Sr",35.450000000000003,20,36.299999999999997,5,35.619999999999997,25,98,400,
+"Personnel Spec,Supvsng",,,43.91,2,43.91,2,,,no women in title
+"Photographer,Sr",,,32.79,2,32.79,2,,,no women in title
+Photographic Svcs Supv,,,35.43,1,35.43,1,,,no women in title
+Plng&Dev Spec I,34.17,8,34.94,2,34.32,10,98,400,
+Plng&Dev Spec II,37.54,33,37.21,11,37.450000000000003,44,101,300,
+"Plng&Dev Spec,Sr",41.6,30,42.32,28,41.95,58,98,107,
+"Plng&Dev Spec,Supvsng",45.74,5,46.41,3,45.99,8,99,167,
+"Plng&Dev Spec,Supvsng-BU",46.41,1,,,46.41,1,,,no men in title
+Plnt Ecologist,33.090000000000003,1,31.82,2,32.24,3,104,50,
+Plumber,,,34.08,16,34.08,16,,,no women in title
+Plumber Aprn,,,28.78,1,28.78,1,,,no women in title
+Plumber CC,,,40.590000000000003,2,40.590000000000003,2,,,no women in title
+"Plumber,Sr",36.9,1,36.9,2,36.9,3,100,50,
+Pmp Stat CC,,,40.76,1,40.76,1,,,no women in title
+Pmp Stat Elecl Tech,,,36.340000000000003,5,36.340000000000003,5,,,no women in title
+"Pmp Stat Elecl Tech,Sr",,,38.450000000000003,3,38.450000000000003,3,,,no women in title
+Pmp Stat Maint Lead Wkr CII,,,27.61,1,27.61,1,,,no women in title
+Pmp Stat Maint Leadwkr,28.1,1,28.1,3,28.1,4,100,33,
+Pmp Stat Maint Wkr,,,23.17,1,23.17,1,,,no women in title
+Pmp Stat Maint Wkr CI,25.54,1,25.54,1,25.54,2,100,100,
+Pntr,30.28,1,30.28,11,30.28,12,100,9,
+Pntr CC,,,34.75,3,34.75,3,,,no women in title
+"Pntr,Sr",,,31.66,2,31.66,2,,,no women in title
+Pol Capt - Permanent Night,,,80.23,1,80.23,1,,,no women in title
+Pol Capt - Traffic,,,78.92,1,78.92,1,,,no women in title
+Pol Capt - Violent Crime,,,80.23,1,80.23,1,,,no women in title
+Pol Capt-Precinct,81.650000000000006,1,80.61,4,80.81,5,101,25,
+Pol Comms Anlyst,36.75,2,,,36.75,2,,,no men in title
+Pol Comms Dispatcher I,25.12,39,24.47,11,24.97,50,103,355,
+Pol Comms Dispatcher II,30.2,27,29.82,7,30.12,34,101,386,
+Pol Comms Dispatcher III,33.99,7,33.619999999999997,5,33.840000000000003,12,101,140,
+Pol Comms Dispatcher Supv,40,2,40,1,40,3,100,200,
+"Pol Comms Dispatcher,Chief",37.4,4,37.729999999999997,2,37.51,6,99,200,
+Pol Data Tech,24.85,21,25.06,2,24.87,23,99,1050,
+Pol Data Tech Supv,29.78,2,,,29.78,2,,,no men in title
+"Pol Data Tech,Sr",26.55,6,26.55,1,26.55,7,100,600,
+Pol Lieut,62.84,4,65.36,37,65.11,41,96,11,
+Pol Ofcr,39.14,15,38.450000000000003,135,38.520000000000003,150,102,11,
+Pol Ofcr- Student,34.090000000000003,9,33.36,28,33.53,37,102,32,
+Pol Ofcr-Academy Instructor,45.57,1,44.44,15,44.51,16,103,7,
+Pol Ofcr-Canine,45.98,1,45.47,12,45.51,13,101,8,
+Pol Ofcr-Detective,44.55,41,44.96,114,44.85,155,99,36,
+Pol Ofcr-Detective-Bomb Squad,47.18,1,47.5,5,47.45,6,99,20,
+Pol Ofcr-Detective-Homicide,45.17,2,46.33,16,46.2,18,98,13,
+Pol Ofcr-Diver,,,46.99,22,46.99,22,,,no women in title
+Pol Ofcr-DWI-Am/Pm Enf,44.35,4,44.22,13,44.25,17,100,31,
+Pol Ofcr-Hostage Neg-Patrl,45.17,2,45.32,11,45.29,13,100,18,
+Pol Ofcr-Motorcycle,45.57,1,45.2,28,45.21,29,101,4,
+Pol Ofcr-Non Patrol,44.15,2,43.55,4,43.75,6,101,50,
+Pol Ofcr-Patrl,43.91,83,44.14,493,44.11,576,99,17,
+Pol Ofcr-SWAT,,,45,24,45,24,,,no women in title
+Pol Recruit,25.98,1,25.98,14,25.98,15,100,7,
+Pol Sgt-Academy Instructor,,,51.09,3,51.09,3,,,no women in title
+Pol Sgt-Canine,,,52.04,1,52.04,1,,,no women in title
+Pol Sgt-Detective,51.53,8,51.52,30,51.52,38,100,27,
+Pol Sgt-Detective-Bomb Squad,,,54.46,2,54.46,2,,,no women in title
+Pol Sgt-Detective-Homicide,,,52.84,3,52.84,3,,,no women in title
+Pol Sgt-Diver,,,53.85,4,53.85,4,,,no women in title
+Pol Sgt-DWI-Am/Pm Enf,,,51.83,3,51.83,3,,,no women in title
+Pol Sgt-Hostage Neg-Patrl,,,52.64,2,52.64,2,,,no women in title
+Pol Sgt-Motorcycle,,,51.36,3,51.36,3,,,no women in title
+Pol Sgt-Non Patrol,51.83,1,,,51.83,1,,,no men in title
+Pol Sgt-Patrl,51.98,8,52.14,72,52.13,80,100,11,
+Pol Sgt-SWAT,,,52.64,4,52.64,4,,,no women in title
+Pole Yard CC,,,38.200000000000003,1,38.200000000000003,1,,,no women in title
+Pool Maint Lead Wkr,,,28.35,1,28.35,1,,,no women in title
+Pool Maint Wkr,25.54,3,25.54,6,25.54,9,100,50,
+Pressure Systs Inspector(J),,,38.14,4,38.14,4,,,no women in title
+"Pressure Systs Inspector,Chief",,,44.74,1,44.74,1,,,no women in title
+Prgm Intake Rep,26.46,17,26.42,5,26.45,22,100,340,
+"Prgm Intake Rep,Sr",28.84,1,,,28.84,1,,,no men in title
+Prjt Fund&Agreemts Coord,35.85,3,36.299999999999997,1,35.96,4,99,300,
+"Prjt Fund&Agreemts Coord,Sr",39.96,3,39.96,3,39.96,6,100,100,
+"Prjt Fund&Agreemts Coord,Supv",36.99,1,,,36.99,1,,,no men in title
+Prob Counslr I,36.07,8,35.07,6,35.64,14,103,133,
+Prob Counslr II,39.36,3,38.76,7,38.94,10,102,43,
+Prob Counslr II-NR,39.36,1,,,39.36,1,,,no men in title
+Prob Counslr-Asg Pers Recog,34.229999999999997,5,34.99,3,34.520000000000003,8,98,167,
+Prob Supv,44.83,1,,,44.83,1,,,no men in title
+Property Mgmt Spec,45.51,3,44.71,2,45.19,5,102,150,
+Property Rehab Spec,,,35.340000000000003,7,35.340000000000003,7,,,no women in title
+Prot&Cntrl Elctn CC,,,54.61,1,54.61,1,,,no women in title
+Prot&Cntrl Elctn II,48.54,1,48.54,9,48.54,10,100,11,
+Publc Ed Prgm Spec,31.16,7,31.16,3,31.16,10,100,233,
+Publc Ed Prgm Supv,39.200000000000003,1,39.200000000000003,1,39.200000000000003,2,100,100,
+Publc Relations Spec,29.38,5,,,29.38,5,,,no men in title
+"Publc Relations Spec,Sr",35.659999999999997,8,36.07,6,35.840000000000003,14,99,133,
+Publc Relations Supv,39.200000000000003,2,,,39.200000000000003,2,,,no men in title
+Publc/Cultural Prgms Spec,29.99,1,,,29.99,1,,,no men in title
+"Publc/Cultural Prgms Spec,Sr",35.43,3,,,35.43,3,,,no men in title
+Pwr Anlyst,39.369999999999997,3,,,39.369999999999997,3,,,no men in title
+"Pwr Anlyst,Asst",30.14,1,,,30.14,1,,,no men in title
+"Pwr Anlyst,Sr",43.94,5,45.25,2,44.32,7,97,250,
+Pwr Dispatcher,49.84,2,49.63,8,49.67,10,100,25,
+"Pwr Dispatcher,Asst",40.36,1,39.33,3,39.590000000000003,4,103,33,
+"Pwr Dispatcher,Sr",,,56.35,9,56.35,9,,,no women in title
+Pwr Structs Mechanic,35.880000000000003,2,35.880000000000003,11,35.880000000000003,13,100,18,
+Pwr Structs Mechanic CC,41.14,1,41.14,5,41.14,6,100,20,
+Pwr Supply Engr,,,64.61,1,64.61,1,,,no women in title
+Pwrline Clear Tree Trimmer,,,38.81,1,38.81,1,,,no women in title
+Pwrline Clear Tree Trimmer-JIC,,,41.14,1,41.14,1,,,no women in title
+Radio Comms Spec,,,33.69,1,33.69,1,,,no women in title
+Radio Dispatcher,24.35,9,24.35,2,24.35,11,100,450,
+"Rates Mgmt Anlyst,Sr",44.74,1,,,44.74,1,,,no men in title
+Real Property Agent,,,38.22,3,38.22,3,,,no women in title
+"Real Property Agent,Sr",44.84,9,45.02,9,44.93,18,100,100,
+Rec Attendant,16.760000000000002,20,16.45,21,16.600000000000001,41,102,95,
+Rec Cntr Coord,32.200000000000003,15,31.93,8,32.11,23,101,188,
+"Rec Cntr Coord,Asst",29.54,6,29.54,4,29.54,10,100,150,
+Rec Leader,23.82,18,24.28,23,24.07,41,98,78,
+Rec Prgm Coord,33.69,2,32.950000000000003,5,33.159999999999997,7,102,40,
+"Rec Prgm Coord,Sr",36.299999999999997,2,36.299999999999997,6,36.299999999999997,8,100,33,
+Rec Prgm Spec,28.39,18,28.03,5,28.31,23,101,360,
+"Rec Prgm Spec,Sr",31.76,3,31.76,2,31.76,5,100,150,
+Registered Nurse Consultant,36.299999999999997,4,36.299999999999997,1,36.299999999999997,5,100,400,
+Remittance Proc Tech,22.56,2,,,22.56,2,,,no men in title
+"Remittance Proc Tech,Sr",24.35,1,,,24.35,1,,,no men in title
+Res&Eval Aide,22.77,4,21.78,2,22.44,6,105,200,
+Res&Eval Asst,29.41,3,29.41,1,29.41,4,100,300,
+Res&Eval Asst II,39.96,1,,,39.96,1,,,no men in title
+Res&Eval Asst-BU,28.36,3,,,28.36,3,,,no men in title
+Retirement Spec,24.97,3,25.28,1,25.05,4,99,300,
+Rights-Of-Way Maint Lead Wkr,,,28.09,1,28.09,1,,,no women in title
+Rights-Of-Way Maint Wkr,27.52,1,27.52,7,27.52,8,100,14,
+Risk Mgmt Anlyst,,,36.299999999999997,1,36.299999999999997,1,,,no women in title
+Scale Attendant,22.78,2,22.78,6,22.78,8,100,33,
+Seattle Conserv Corps Supv,,,26.5,7,26.5,7,,,no women in title
+"Seattle Conserv Corps Supv,Sr",,,29.41,2,29.41,2,,,no women in title
+Security Ofcr,22.81,1,22.81,14,22.81,15,100,7,
+"Security Ofcr,Sr",,,25,3,25,3,,,no women in title
+Security Prgms Spec,34.94,1,34.94,2,34.94,3,100,50,
+Security Supv,,,31.76,1,31.76,1,,,no women in title
+Sfty&Hlth Spec,39.200000000000003,1,39.200000000000003,1,39.200000000000003,2,100,100,
+"Sfty&Hlth Spec,Sr",42,6,40.9,9,41.34,15,103,67,
+"Sfty&Hlth Spec,Sr-BU",,,40.74,1,40.74,1,,,no women in title
+Sfty&Hlth Supv,45.51,1,43.88,2,44.42,3,104,50,
+Sfty/Ocuptnl Hlth Coord,42.25,1,,,42.25,1,,,no men in title
+Shop Opns Supv,,,41.55,5,41.55,5,,,no women in title
+Sign Inspector(J),,,39.200000000000003,1,39.200000000000003,1,,,no women in title
+"Sign Pntr,Sr",,,31.66,2,31.66,2,,,no women in title
+Signal Elctn CC,46.06,1,46.06,1,46.06,2,100,100,
+Signal Elctn II,,,40.950000000000003,3,40.950000000000003,3,,,no women in title
+Signal Elctn III,,,41.77,7,41.77,7,,,no women in title
+Signal Elctn V,43.41,1,43.41,7,43.41,8,100,14,
+Site Dev Insp,40.74,2,39.630000000000003,4,40,6,103,50,
+Social Svcs Aide,19.53,6,19.97,3,19.670000000000002,9,98,200,
+Solid Wst Fld Rep II,34.1,1,34.1,3,34.1,4,100,33,
+Solid Wst Fld Rep Supv,,,40.04,3,40.04,3,,,no women in title
+"Solid Wst Fld Rep,Lead",37.06,1,37.06,4,37.06,5,100,25,
+Sound Systs Chief,,,35.57,1,35.57,1,,,no women in title
+Sound&Video Equip Tech,32.01,1,32.01,6,32.01,7,100,17,
+Spay&Neuter Tech,24.35,3,,,24.35,3,,,no men in title
+Special Asst-Law,43.1,1,,,43.1,1,,,no men in title
+Special C Lead Wkr,,,28.35,1,28.35,1,,,no women in title
+Special Exams Anlyst,36.299999999999997,2,,,36.299999999999997,2,,,no men in title
+Stage CC,,,35.57,1,35.57,1,,,no women in title
+Stage Tech,28.03,1,,,28.03,1,,,no men in title
+"Stage Tech,Lead",30.22,3,30.05,7,30.1,10,101,43,
+Stat Mach CC,,,34.51,1,34.51,1,,,no women in title
+Stat Maint Mach,,,31.4,2,31.4,2,,,no women in title
+Store Clerk,21.14,1,,,21.14,1,,,no men in title
+Store Keeper,,,28.35,1,28.35,1,,,no women in title
+Street Maint CC,33.380000000000003,1,33.04,4,33.11,5,101,25,
+Street Maint Supv,36,2,36,1,36,3,100,200,
+Street Paving CC,33.93,1,33.93,6,33.93,7,100,17,
+Strucl Iron Wkr,41.14,1,40.92,9,40.950000000000003,10,101,11,
+Strucl Iron Wkr CC,46.28,1,,,46.28,1,,,no men in title
+Strucl Plans Engr,45.69,1,45.69,5,45.69,6,100,20,
+Strucl Plans Engr Supv,53.39,1,53.39,1,53.39,2,100,100,
+"Strucl Plans Engr,Sr",47.44,2,50.07,2,48.75,4,95,100,
+Strucl Pntr,31.34,1,31.34,10,31.34,11,100,10,
+Strucl Pntr CC,36.020000000000003,1,36.020000000000003,1,36.020000000000003,2,100,100,
+Supply&Inventory Tech,25.28,1,25.28,1,25.28,2,100,100,
+"Surveyor,Chief",,,45.25,2,45.25,2,,,no women in title
+Tax Auditor,34.33,4,34.31,5,34.32,9,100,80,
+"Tax Auditor,Asst",31.16,1,,,31.16,1,,,no men in title
+"Tax Auditor,Sr",36.99,1,,,36.99,1,,,no men in title
+Telecom Syst Installer,,,32.520000000000003,1,32.520000000000003,1,,,no women in title
+"Telecom Syst Installer,Sr",,,36.57,2,36.57,2,,,no women in title
+Temp Emplmnt Spec,33.69,1,,,33.69,1,,,no men in title
+Tennis Instructor,,,22.96,5,22.96,5,,,no women in title
+Tenprint Supv,35.57,2,,,35.57,2,,,no men in title
+Title Records Tech,22.56,1,,,22.56,1,,,no men in title
+Traffic Marking Lead Wkr,27.52,1,27.52,5,27.52,6,100,20,
+Traffic Sign&Marking CC I,,,33.380000000000003,2,33.380000000000003,2,,,no women in title
+Trans Line CC,47.67,1,47.67,1,47.67,2,100,100,
+Transmission CC-WDM II,37.4,1,38.090000000000003,2,37.86,3,98,50,
+"Transp Plnr,Assoc",39.96,3,38.5,3,39.229999999999997,6,104,100,
+"Transp Plnr,Asst",30.55,1,30.55,1,30.55,2,100,100,
+"Transp Plnr,Sr",43.46,5,42.85,10,43.05,15,101,50,
+Treasury Cashier,31.51,3,28.88,2,30.46,5,109,150,
+"Treasury Cashier,Sr",34.94,1,,,34.94,1,,,no men in title
+Tree Trimmer,,,27.36,7,27.36,7,,,no women in title
+"Tree Trimmer,Lead",,,30.25,4,30.25,4,,,no women in title
+Tree Trimming Rep,,,29.96,1,29.96,1,,,no women in title
+Trng Dev&Prgm Coord,33.69,1,,,33.69,1,,,no men in title
+Trng&Ed Coord,33.69,6,33.04,2,33.53,8,102,300,
+"Trng&Ed Coord,Asst",26.79,4,,,26.79,4,,,no men in title
+"Trng&Ed Coord,Asst-BU",26.79,1,,,26.79,1,,,no men in title
+"Trng&Ed Coord,Sr",35.74,7,33.729999999999997,2,35.29,9,106,350,
+Truck Drvr,27.58,2,27.49,36,27.49,38,100,6,
+"Truck Drvr,Heavy",29,7,28.93,34,28.94,41,100,21,
+"Usher,Head",20.81,1,,,20.81,1,,,no men in title
+Util Act Rep I,26.81,24,26.92,10,26.84,34,100,240,
+Util Act Rep II,29.51,23,29.56,3,29.52,26,100,767,
+Util Act Rep Supv I,,,31.8,2,31.8,2,,,no women in title
+Util Act Rep Supv II,36.299999999999997,3,36.299999999999997,2,36.299999999999997,5,100,150,
+Util Act Rep Trne,21.2,9,21.03,7,21.13,16,101,129,
+Util Acts Supv,31.91,5,,,31.91,5,,,no men in title
+Util Astnce Supv,33.69,1,,,33.69,1,,,no men in title
+Util Constr Lead Wkr,,,29,8,29,8,,,no women in title
+Util Constr Wkr,26.33,2,26.71,25,26.68,27,99,8,
+Util Hearing Ofcr,42.25,2,,,42.25,2,,,no men in title
+Util Laborer,22.56,3,22.56,29,22.56,32,100,10,
+Util Svc Inspector,34.74,1,34.74,3,34.74,4,100,33,
+"Util Svc Inspector,Sr",37.35,1,37.35,2,37.35,3,100,50,
+Util Svc Rep,31.25,11,32.07,4,31.47,15,97,275,
+Util Systs Maint Tech,,,27.63,4,27.63,4,,,no women in title
+"Util Systs Maint Tech,Sr",,,29.24,2,29.24,2,,,no women in title
+Victim Advocate,30.31,14,30.55,2,30.34,16,99,700,
+Victim Advocate Supv,36.299999999999997,1,,,36.299999999999997,1,,,no men in title
+Video Spec II,36.299999999999997,2,35.43,9,35.590000000000003,11,102,22,
+Volunteer Prgms Coord,29.99,4,29.99,1,29.99,5,100,400,
+Volunteer Supv,26.26,1,,,26.26,1,,,no men in title
+Warehouse Supv,,,34.94,1,34.94,1,,,no women in title
+"Warehouser,Chief",30.88,2,30.88,9,30.88,11,100,22,
+"Warehouser,Sr",,,26.5,1,26.5,1,,,no women in title
+"Warehouser,Sr-BU",26.42,12,26.4,20,26.41,32,100,60,
+Warehouser-BU,24.08,4,24.08,14,24.08,18,100,29,
+Workers' Comp Anlyst,35.26,5,,,35.26,5,,,no men in title
+"Workers' Comp Anlyst,Sr",36.99,1,,,36.99,1,,,no men in title
+Workers' Comp Spec,28.84,1,,,28.84,1,,,no men in title
+Workers' Comp Supv,43.1,1,,,43.1,1,,,no men in title
+Wtr Laboratory Tech,,,24.07,5,24.07,5,,,no women in title
+Wtr Meter Changer,,,25.28,1,25.28,1,,,no women in title
+Wtr Meter Repairer,,,26.69,1,26.69,1,,,no women in title
+"Wtr Meter Repairer,Sr",27.67,1,27.67,2,27.67,3,100,50,
+Wtr Pipe CC,,,38.42,2,38.42,2,,,no women in title
+Wtr Pipe CC-WDM II,,,38.770000000000003,6,38.770000000000003,6,,,no women in title
+Wtr Pipe Wkr,30.18,2,30.18,25,30.18,27,100,8,
+Wtr Pipe Wkr Sr-WDM II,33.64,4,33.64,27,33.64,31,100,15,
+"Wtr Pipe Wkr,Sr",,,32.369999999999997,10,32.369999999999997,10,,,no women in title
+Wtr Pipe Wkr-WDM I,30.46,1,29.94,15,29.97,16,102,7,
+Wtr Quality Anlyst,33.69,3,33.69,3,33.69,6,100,100,
+"Wtr Quality Anlyst,Asst",31.16,2,,,31.16,2,,,no men in title
+"Wtr Quality Anlyst,Sr",36.299999999999997,2,36.299999999999997,1,36.299999999999997,3,100,200,
+"Wtr Quality Anlyst,Supv",39.200000000000003,1,39.200000000000003,1,39.200000000000003,2,100,100,
+Wtr Quality Engr,44.74,1,,,44.74,1,,,no men in title
+"Wtr Quality Engr,Sr",,,50.69,2,50.69,2,,,no women in title
+Wtr Syst Op,,,38.58,5,38.58,5,,,no women in title
+"Wtr Syst Op,Sr",41.72,1,41.72,1,41.72,2,100,100,
+Wtr Systs Supv,,,47.63,2,47.63,2,,,no women in title
+Wtr Treatment CC,36.299999999999997,1,36.299999999999997,1,36.299999999999997,2,100,100,
+Wtr Treatment Equip Tech,,,33.090000000000003,1,33.090000000000003,1,,,no women in title
+"Wtr Treatment Op,Sr",,,31.34,2,31.34,2,,,no women in title
+Wtr Treatment Op-Asg Relief,,,29.08,1,29.08,1,,,no women in title
+Wtr Treatment Op-WDM I,28.22,2,27.52,3,27.8,5,103,67,
+Wtrshed Inspector,,,30.81,3,30.81,3,,,no women in title
+"Wtrshed Inspector,Sr",34.94,1,,,34.94,1,,,no men in title
+Wtrshed Opns Supv,,,39.96,1,39.96,1,,,no women in title
+Wtrshed Resource Spec,,,36.299999999999997,1,36.299999999999997,1,,,no women in title
+Wtrshed Resources Tech,,,34.450000000000003,1,34.450000000000003,1,,,no women in title
+"Wtrworks Maint Spec,Sr-SMU",,,29.99,2,29.99,2,,,no women in title
+Wtrworks Maint Spec-SMU,,,27.65,3,27.65,3,,,no women in title
+Wtrworks Maint Supv,,,35.57,1,35.57,1,,,no women in title
+Grand Total,32.24,2944,37.15,5445,35.43,8389,87,54,

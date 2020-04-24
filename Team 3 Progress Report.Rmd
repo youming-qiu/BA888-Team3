@@ -22,12 +22,12 @@ options(scipen=200)
 
 ```{r message=FALSE, warning=FALSE}
 # load datasets
-alldata <- read.csv("alldata.csv")
+alldata <- read.csv("data/alldata.csv")
 
 all <- alldata %>% 
   select(position, company, location)
 
-wage = read_csv("City_of_Seattle_Wages___Comparison_by_Gender__Wage_Progression_Job_Titles.csv")
+wage = read_csv("data/City_of_Seattle_Wages___Comparison_by_Gender__Wage_Progression_Job_Titles.csv")
 ```
 
 ```{r}

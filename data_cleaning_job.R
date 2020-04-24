@@ -4,7 +4,7 @@ library(tidytext)
 library(tm)
 
 # load datasets
-all <- read.csv("alldata.csv")
+all <- read.csv("data/alldata.csv")
 dim(all) # 6964x5
 
 #################### data cleaning process

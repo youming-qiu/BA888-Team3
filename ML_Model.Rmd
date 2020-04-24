@@ -23,7 +23,7 @@ library(gbm)
 
 # Load the dataset
 ```{r}
-data <- read.csv("indeed_job_dataset.csv")
+data <- read.csv("data/indeed_job_dataset.csv")
 glimpse(data)
 ```
 

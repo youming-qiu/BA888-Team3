@@ -68,7 +68,7 @@ library(randomForest)
 
 
 # load the dataset 
-data <- read.csv("indeed_job_dataset.csv")
+data <- read.csv("data/indeed_job_dataset.csv")
 glimpse(data)
 
 ########## Create a new working data called my data

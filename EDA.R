@@ -11,13 +11,13 @@ library(RColorBrewer)
 options(scipen=200)
 
 ### Load datasets####
-alldata <- read.csv("alldata.csv")
+alldata <- read.csv("data/alldata.csv")
 
 all <- alldata %>% 
   select(position, company, location)
 View(all)
 
-wage = read_csv("City_of_Seattle_Wages___Comparison_by_Gender__Wage_Progression_Job_Titles.csv")
+wage = read_csv("data/City_of_Seattle_Wages___Comparison_by_Gender__Wage_Progression_Job_Titles.csv")
 View(wage)
 
 house <- read.csv("house_sales.csv")
